@@ -25,14 +25,14 @@ jobs:
           python-version: "3.12"
 
       - name: Update market data
-        run: python update_market_book.py
+        run: python update_market_book.py --brief-dir briefs
 
       - name: Commit updated market book
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/market_book.json
+          git add data/market_book.json briefs
 
           if git diff --cached --quiet; then
             echo "No market data changes."
