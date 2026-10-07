@@ -9,7 +9,7 @@ from urllib.request import Request, urlopen
 from io import StringIO
 import csv
 from urllib.parse import quote
-import json, statistics
+import argparse, json, statistics
 from news_matcher import fetch_articles, match_articles, SOURCE_STATUS
 
 ROOT=Path(__file__).parent; OUT=ROOT/'data'/'market_book.json'; HISTORY=ROOT/'data'/'history'; OUT.parent.mkdir(exist_ok=True); HISTORY.mkdir(exist_ok=True)
@@ -25,6 +25,30 @@ def source_metadata(name,ticker,kind):
         if name=='CNY/AUD': return {'source_name':'Derived from Yahoo Finance CNY=X and AUDUSD=X','source_symbol':'CNY/AUD','source_urls':['https://finance.yahoo.com/quote/CNY=X/','https://finance.yahoo.com/quote/AUDUSD=X/'],'data_status':'derived'}
         if name=='10Y–2Y Yield Spread': return {'source_name':'Derived from FRED DGS10 minus DGS2','source_symbol':'DGS10-DGS2','source_urls':['https://fred.stlouisfed.org/series/DGS10','https://fred.stlouisfed.org/series/DGS2'],'data_status':'derived'}
     return {'source_name':'Yahoo Finance chart endpoint','source_symbol':ticker,'source_urls':[f'https://finance.yahoo.com/quote/{quote(ticker,safe="")}/'],'data_status':'validated'}
+def write_brief(payload,brief_dir):
+    brief_dir=Path(brief_dir); brief_dir.mkdir(parents=True,exist_ok=True)
+    assets=payload.get('assets',[]); events=payload.get('events',[]); quality=payload.get('data_quality',{})
+    close_date=payload.get('market_close_date') or payload.get('as_of','')[:10] or 'latest'
+    lines=['# Market Book — Daily Market Brief','',f"**Market close:** {close_date} (US session)",f"**Updated:** {payload.get('updated_at_local') or payload.get('as_of','—')}",f"**Regime:** {payload.get('regime','—')}",'','## Executive summary','',payload.get('summary','—'),'','## Cross-asset snapshot','', '| Asset | Last | Daily | Unusual move score | Signal |','|---|---:|---:|---:|---|']
+    for asset in [x for x in assets if x.get('kind')!='Sector']:
+        change=asset.get('change_pct',0); score=asset.get('z_score',0); sign='+' if change>=0 else ''; score_sign='+' if score>=0 else ''
+        lines.append(f"| {asset.get('name','—')} | {asset.get('close_display','—')} | {sign}{change:.2f}% | {score_sign}{score:.2f} | {asset.get('signal','—')} |")
+    lines.extend(['','## Sector transmission','','| Sector proxy | Daily | Unusual move score | Signal |','|---|---:|---:|---|'])
+    for asset in [x for x in assets if x.get('kind')=='Sector']:
+        change=asset.get('change_pct',0); score=asset.get('z_score',0); sign='+' if change>=0 else ''; score_sign='+' if score>=0 else ''
+        lines.append(f"| {asset.get('name','—')} | {sign}{change:.2f}% | {score_sign}{score:.2f} | {asset.get('signal','—')} |")
+    lines.extend(['','## Moves requiring attention',''])
+    if events:
+        for event in events:
+            lines.extend([f"### {event.get('asset','—')} — {event.get('change_pct',0):+.2f}% ({event.get('level','—')})",'',f"**Drivers:** {event.get('drivers','—')}",f"**Sector impact:** {event.get('sectors','—')}",''])
+            for evidence in event.get('evidence',[]):
+                title=evidence.get('title','Source link'); link=evidence.get('link','')
+                lines.append(f"- [{evidence.get('source','Source')}: {title}]({link})" if link else f"- {evidence.get('source','Source')}: {title}")
+            lines.append('')
+    else:
+        lines.append('No flagged moves for this close.\n')
+    lines.extend(['## Data quality','',f"- Status: {quality.get('status','UNVERIFIED')}",f"- Assets loaded: {quality.get('assets_loaded',0)}/{quality.get('assets_expected',0)}",f"- News items checked: {quality.get('news_items_checked',payload.get('news_checked',0))}",f"- Market data: {quality.get('market_data_source','—')}",f"- Rates: {quality.get('rates_source','—')}",f"- News: {quality.get('news_source','—')}",'','## Methodology','','Daily close-to-close returns are compared with the previous 60 trading days. The dashboard presents the resulting unusual-move score; larger absolute values indicate a move that is less typical for that asset.',''])
+    text='\n'.join(lines); dated=brief_dir/f'Market_Brief_{close_date}.md'; latest=brief_dir/'Latest_Market_Brief.md'; dated.write_text(text,encoding='utf-8'); latest.write_text(text,encoding='utf-8'); return dated
 def specific_driver(name,change,z,assets):
     by={x['name']:x for x in assets}; get=lambda key: by.get(key)
     def move(key):
@@ -69,7 +93,7 @@ def zscore(closes):
 def percentile(closes):
     returns=[abs((closes[i]/closes[i-1]-1)*100) for i in range(1,len(closes))]; window=returns[-61:]; today=window[-1]; hist=window[:-1]
     return round(100*sum(value<=today for value in hist)/len(hist),1) if hist else 0
-def main():
+def main(brief_dir=None):
     assets=[]; events=[]; articles=fetch_articles(); series={}; warnings=[]
     for name,ticker,kind,lens in ASSETS:
         try:
@@ -128,5 +152,8 @@ def main():
     summary='\n\n'.join([p1,p2,p3,p4])
     now_utc=datetime.now(timezone.utc); as_of=now_utc.strftime('%Y-%m-%d %H:%M UTC'); sydney=now_utc.astimezone(ZoneInfo('Australia/Sydney')) if ZoneInfo else now_utc.astimezone(); updated_local=sydney.strftime('%Y-%m-%d %H:%M %Z'); market_close_date=now_utc.strftime('%Y-%m-%d'); expected=len(ASSETS)+3; news_errors=[x for x in SOURCE_STATUS if x['status']!='OK']; quality={'status':'OK' if not warnings and not news_errors and len(assets)>=expected else 'DEGRADED','assets_loaded':len(assets),'assets_expected':expected,'warnings':warnings+['News feed error: '+x['name'] for x in news_errors],'news_items_checked':len(articles),'news_feeds_ok':len(SOURCE_STATUS)-len(news_errors),'news_feeds_total':len(SOURCE_STATUS),'market_data_source':'Yahoo Finance chart endpoint','rates_source':'FRED DGS2/DGS10','news_source':'Federal Reserve, EIA and Google News RSS'}
     payload={'as_of':as_of,'updated_at_utc':as_of,'updated_at_local':updated_local,'market_close_date':market_close_date,'regime':regime,'summary':summary,'source':'Yahoo Finance + FRED (DGS2/DGS10) · official RSS: Federal Reserve and EIA','assets':assets,'events':sorted(events,key=lambda x:abs(x['change_pct']),reverse=True),'news_checked':len(articles),'news_sources':SOURCE_STATUS,'data_quality':quality}
-    OUT.write_text(json.dumps(payload,indent=2),encoding='utf-8'); (HISTORY/(datetime.now(timezone.utc).strftime('%Y-%m-%d')+'.json')).write_text(json.dumps(payload,indent=2),encoding='utf-8'); print('Market book written successfully.')
-if __name__=='__main__': main()
+    OUT.write_text(json.dumps(payload,indent=2),encoding='utf-8'); (HISTORY/(datetime.now(timezone.utc).strftime('%Y-%m-%d')+'.json')).write_text(json.dumps(payload,indent=2),encoding='utf-8'); brief_path=write_brief(payload,brief_dir or (ROOT/'data'/'briefs')); print(f'Market book written successfully. Brief: {brief_path}')
+if __name__=='__main__':
+    parser=argparse.ArgumentParser(description='Build the daily Market Book and a Markdown brief.')
+    parser.add_argument('--brief-dir',help='Directory where the dated and latest Markdown briefs are written.')
+    main(parser.parse_args().brief_dir)
