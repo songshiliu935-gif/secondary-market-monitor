@@ -1,0 +1,42 @@
+name: Update Market Book
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:30 Sydney time, Tuesday to Saturday.
+    # This covers Monday-Friday US market closes.
+    - cron: "30 8 * * 2-6"
+      timezone: "Australia/Sydney"
+
+permissions:
+  contents: write
+
+jobs:
+  update-market-book:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update market data
+        run: python update_market_book.py
+
+      - name: Commit updated market book
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/market_book.json
+
+          if git diff --cached --quiet; then
+            echo "No market data changes."
+          else
+            git commit -m "Update daily market book"
+            git push
+          fi
