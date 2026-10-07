@@ -1,0 +1,9 @@
+[
+  {"name":"Federal Reserve — All Press Releases","url":"https://www.federalreserve.gov/feeds/press_all.xml"},
+  {"name":"Federal Reserve — Monetary Policy","url":"https://www.federalreserve.gov/feeds/press_monetary.xml"},
+  {"name":"EIA — Today in Energy","url":"https://www.eia.gov/rss/todayinenergy.xml"},
+  {"name":"EIA — Press Releases","url":"https://www.eia.gov/rss/press_rss.xml"},
+  {"name":"Google News — Oil, Iran and Hormuz","url":"https://news.google.com/rss/search?q=oil+Iran+Hormuz+OPEC&hl=en-US&gl=US&ceid=US:en"},
+  {"name":"Google News — Rates and Macro","url":"https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en"},
+  {"name":"Google News — China and Commodities","url":"https://news.google.com/rss/search?q=China+copper+commodities+manufacturing+markets&hl=en-US&gl=US&ceid=US:en"}
+]
