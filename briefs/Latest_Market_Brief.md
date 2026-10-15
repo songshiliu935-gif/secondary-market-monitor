@@ -1,138 +1,164 @@
 # Market Book — Daily Market Brief
 
-**Market close:** 2026-10-14 (US session)
-**Updated:** 2026-10-15 10:59 AEDT
-**Regime:** Risk-off
+**Market close:** 2026-10-15 (US session)
+**Updated:** 2026-10-16 10:44 AEDT
+**Regime:** Mixed
 
 ## Executive summary
 
-Macro and commodities lead the story. Brent crude moved +0.00% and WTI +0.69%, while Gold moved -1.15% and Copper -1.02%; Natural Gas changed -0.09%. The commodity tape therefore points to limited outright commodity repricing, with the next move likely to depend on a catalyst rather than a broad, confirmed commodity shock.
+Macro and commodities lead the story. Brent crude moved -0.41% and WTI +1.06%, while Gold moved +1.82% and Copper -0.84%; Natural Gas changed +0.53%. The commodity tape therefore points to limited outright commodity repricing, with the next move likely to depend on a catalyst rather than a broad, confirmed commodity shock.
 
-The oil narrative is being monitored through supply and geopolitics. The closest matched feed items were: OPEC oil output rebounds in September even amid Strait of Hormuz tensions - Down To Earth. Geopolitical evidence specifically related to Iran, the Strait of Hormuz, OPEC or the Middle East was: OPEC oil output rebounds in September even amid Strait of Hormuz tensions - Down To Earth With the oil move still contained, the next catalysts are EIA inventory data, OPEC+ supply guidance and any new U.S.–Iran or Strait of Hormuz developments. This is the key distinction between a temporary futures move and a durable repricing of physical supply risk.
+The oil narrative is being monitored through supply and geopolitics. The closest matched feed items were: No direct oil headline was matched in the monitored feeds.. Geopolitical evidence specifically related to Iran, the Strait of Hormuz, OPEC or the Middle East was: No direct Iran, Strait of Hormuz, OPEC or Middle East headline was matched in the monitored feeds. With the oil move still contained, the next catalysts are EIA inventory data, OPEC+ supply guidance and any new U.S.–Iran or Strait of Hormuz developments. This is the key distinction between a temporary futures move and a durable repricing of physical supply risk.
 
-That macro backdrop then transmits into indices. U.S. performance was Hang Seng +0.30%, Shanghai Composite +0.10%, US Industrials -0.09%; Asian indices were Shanghai Composite +0.10%, Hang Seng +0.30%, Nikkei 225 -1.82%, KOSPI -5.46%. The dollar moved +0.04%, VIX +10.48%, the 10Y yield was 5.21 (-0.57% daily), the 2Y yield was 4.79, and the 10Y–2Y spread stood at 0.42%. The combination suggests that index moves were being filtered through rates, currency and regional growth sensitivity rather than driven by one uniform global risk signal.
+That macro backdrop then transmits into indices. U.S. performance was US Industrials +1.08%, US Large Cap +0.33%, US Tech +0.08%; Asian indices were Shanghai Composite -0.89%, Hang Seng -0.13%, Nikkei 225 -0.05%, KOSPI -0.44%. The dollar moved -0.49%, VIX -2.43%, the 10Y yield was 5.19 (-0.38% daily), the 2Y yield was 4.82, and the 10Y–2Y spread stood at 0.37%. The combination suggests that index moves were being filtered through rates, currency and regional growth sensitivity rather than driven by one uniform global risk signal.
 
-Sector transmission was selective: Healthcare led at +2.53% versus Technology at -2.98%. Energy and Materials are the direct commodity beneficiaries, Industrials and Consumer Discretionary reflect growth sensitivity, while Utilities and Real Estate are being repriced through yields and income demand. The working market story is therefore a macro-to-market chain: commodity and geopolitical signals first, rates and FX second, then index and sector rotation. 4 significant statistical moves require review; source links and confidence labels are shown in Event Radar.
+Sector transmission was selective: Healthcare led at +1.86% versus Energy at -1.58%. Energy and Materials are the direct commodity beneficiaries, Industrials and Consumer Discretionary reflect growth sensitivity, while Utilities and Real Estate are being repriced through yields and income demand. The working market story is therefore a macro-to-market chain: commodity and geopolitical signals first, rates and FX second, then index and sector rotation. 3 significant statistical moves require review; source links and confidence labels are shown in Event Radar.
 
 ## Cross-asset snapshot
 
 | Asset | Last | Daily | Unusual move score | Signal |
 |---|---:|---:|---:|---|
-| US Large Cap | 7,718.94 | -1.11% | -1.73 | Watchlist |
-| US Tech | 26,692.87 | -1.88% | -1.95 | Watchlist |
-| US Industrials | 51,621.48 | -0.09% | -0.12 | Normal |
-| Shanghai Composite | 3,800.86 | +0.10% | +0.18 | Normal |
-| Hang Seng | 24,345.22 | +0.30% | +0.33 | Normal |
-| Nikkei 225 | 67,777.52 | -1.82% | -1.06 | Watchlist |
-| KOSPI | 6,035.35 | -5.46% | -1.28 | Watchlist |
-| WTI Crude | 94.79 | +0.69% | +0.15 | Normal |
-| Brent Crude | 105.69 | +0.00% | -0.10 | Normal |
-| Gold | 4,129.20 | -1.15% | -0.91 | Normal |
-| Silver | 55.81 | -5.66% | -2.66 | Significant |
-| Copper | 6.61 | -1.02% | -0.82 | Normal |
-| Natural Gas | 3.28 | -0.09% | -0.14 | Normal |
-| AUD/USD | 0.70 | -0.07% | -0.17 | Normal |
-| US 2Y Treasury Yield | 4.79 | -0.21% | -0.38 | Normal |
-| US 10Y Treasury Yield | 5.21 | -0.57% | -0.83 | Normal |
-| VIX | 16.87 | +10.48% | +1.82 | Watchlist |
-| US Dollar Index | 102.22 | +0.04% | +0.06 | Normal |
-| CNY/USD | 0.1495 | +0.07% | +0.75 | Normal |
-| CNY/AUD | 0.2142 | +0.14% | +0.31 | Normal |
-| 10Y–2Y Yield Spread | 0.42% | -4.55% | -0.55 | Normal |
+| US Large Cap | 7,744.06 | +0.33% | +0.40 | Normal |
+| US Tech | 26,713.03 | +0.08% | +0.02 | Normal |
+| US Industrials | 52,177.69 | +1.08% | +1.48 | Watchlist |
+| Shanghai Composite | 3,767.23 | -0.89% | -0.90 | Normal |
+| Hang Seng | 24,314.17 | -0.13% | -0.08 | Normal |
+| Nikkei 225 | 67,744.29 | -0.05% | -0.04 | Normal |
+| KOSPI | 6,008.81 | -0.44% | -0.08 | Normal |
+| WTI Crude | 96.10 | +1.06% | +0.28 | Normal |
+| Brent Crude | 105.62 | -0.41% | -0.23 | Normal |
+| Gold | 4,182.60 | +1.82% | +1.33 | Watchlist |
+| Silver | 57.33 | +3.20% | +1.45 | Watchlist |
+| Copper | 6.56 | -0.84% | -0.67 | Normal |
+| Natural Gas | 3.21 | +0.53% | +0.13 | Normal |
+| AUD/USD | 0.69 | -0.84% | -2.16 | Significant |
+| US 2Y Treasury Yield | 4.82 | +0.63% | +0.33 | Normal |
+| US 10Y Treasury Yield | 5.19 | -0.38% | -0.63 | Normal |
+| VIX | 16.46 | -2.43% | -0.44 | Normal |
+| US Dollar Index | 102.04 | -0.49% | -1.67 | Watchlist |
+| CNY/USD | 0.1497 | +0.17% | +2.44 | Significant |
+| CNY/AUD | 0.2163 | +1.01% | +2.68 | Significant |
+| 10Y–2Y Yield Spread | 0.37% | -11.90% | -1.37 | Watchlist |
 
 ## Sector transmission
 
 | Sector proxy | Daily | Unusual move score | Signal |
 |---|---:|---:|---|
-| Technology | -2.98% | -2.03 | Significant |
-| Financials | -0.55% | -0.67 | Normal |
-| Energy | +0.64% | +0.28 | Normal |
-| Industrials | -0.97% | -0.92 | Normal |
-| Materials | -0.10% | -0.09 | Normal |
-| Healthcare | +2.53% | +2.35 | Significant |
-| Utilities | -0.36% | -0.25 | Normal |
-| Real Estate | -0.81% | -0.87 | Normal |
-| Consumer Discretionary | -0.77% | -0.62 | Normal |
-| Consumer Staples | +2.22% | +2.40 | Significant |
+| Technology | -0.65% | -0.48 | Normal |
+| Financials | +1.38% | +1.84 | Watchlist |
+| Energy | -1.58% | -1.35 | Watchlist |
+| Industrials | +0.51% | +0.64 | Normal |
+| Materials | +1.79% | +1.75 | Watchlist |
+| Healthcare | +1.86% | +1.59 | Watchlist |
+| Utilities | -0.17% | -0.05 | Normal |
+| Real Estate | +1.21% | +1.70 | Watchlist |
+| Consumer Discretionary | +1.71% | +1.48 | Watchlist |
+| Consumer Staples | +0.72% | +0.70 | Normal |
 
 ## Moves requiring attention
 
-### VIX — +10.48% (Watchlist)
+### Silver — +3.20% (Watchlist)
 
-**Drivers:** Up 10.48% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.82). VIX rose +10.48% while US Large Cap -1.11%, US Tech -1.88% and US Industrials -0.09%; volatility therefore increased without a broad equity sell-off, pointing to hedging or event risk rather than a confirmed risk-off session. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
-**Sector impact:** Equity volatility and risk appetite
-
-- [News search: Search latest news about VIX](https://news.google.com/search?q=VIX%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
-
-### Silver — -5.66% (Significant)
-
-**Drivers:** Down 5.66% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.66). Silver moved -5.66% alongside US Dollar Index +0.04%, US 10Y Treasury Yield -0.57% and VIX +10.48%; the combination helps distinguish safe-haven demand from a pure real-yield or dollar move. Related official-source items: Bond market whiplash: U.S. yields jump then pull back, reflecting Fed’s expected patience - The Globe and Mail; Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch; US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang
+**Drivers:** Up 3.20% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.45). Silver moved +3.20% alongside US Dollar Index -0.49%, US 10Y Treasury Yield -0.38% and VIX -2.43%; the combination helps distinguish safe-haven demand from a pure real-yield or dollar move. Related official-source items: Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch; US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang; Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.
 **Sector impact:** Precious metals and industrial demand
 
-- [Google News — Rates and Macro: Bond market whiplash: U.S. yields jump then pull back, reflecting Fed’s expected patience - The Globe and Mail](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTTlhOERUa2p5UEM4dkh5M2lMUzBQUkZyZ1BiRGttWTZ4TXVKNmtjUmFSelhkRm9JZXpVbkFGLUk0NkE0dDVwaU50UUFmTVV3STFieGNBalpqZDJJWGhHTXVVV2txMGo5UVVxRkQxNndEY0R1aE5PVkU4U3E0RlRrVkstMmVZUUZvejRDMTljcnZsMmc1Wkh6MUtlNjlsMTY4UmtESm43T2U0T3VCVVdFdDN2aGtOLTZ0?oc=5)
 - [Google News — Rates and Macro: Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch](https://news.google.com/rss/articles/CBMixgFBVV95cUxPcTVtY21OXzJHcEpRTndrNTdUSVdFX24zcklZeGxHTWVDZEk1YkVYalVhYkRsLUk2cC00cVU4THJOQ3hicmd2dFo2ekxBZUxvczY3QWREQzJPQk9hOGZnQVBuM2dHdV9RLUtWZ1ZvZ2RMU1BhY1N2S01Ed1FnVjdiSjlpUUxZOUkwV3U3bXpNVVJkY1RzeTJ2Q2c5NGIzT3UtRmJxTER2d2U5MHN1aVN4dmxNUHBRRDRzOWE4UnZ5TkJlc2ptZHc?oc=5)
 - [Google News — Rates and Macro: US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang](https://news.google.com/rss/articles/CBMinwFBVV95cUxNeG1OSVpEMWhaMmdOLUlyQnpxWTh6T3VwcmlaclBOV3BLaUEwazNONHNmLTNiWnRKcmpOR21jOXNQWEo5VXpiandrbkhrU0xDWU56TWt4QVpxMTZSZVJPTW9HbzVkSlIyVnZQVXN5Xzd6YV9KOUZfT0RDajlwNEJ2al9lU3BZY0ExcGxsaEdoMjg0V3NCVXVpOUNrdW5CT1E?oc=5)
+- [Google News — Rates and Macro: Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRmpNMXhBd3IzV2lBX21jMFhkRXpUcXlvUXdaTGhveHZZRFdhRk9XNTBxMnlBcVU0dUxnM01lYnFldm4ydzQyTUhVa3pRUzdoY3haSU5SVnBYSzc4MjRxNFdvSVQwM2E5dXBjLTRnZGJCbTUwbVlWbTZCS1RzZ0c4dnVFS1BxRWpzNXd1Tl8tNXZHQ0YzcldWR2FWSjQ5alVaVTlYMnFnQ2ZKN29RMVItS0lfcEI1X2NaZElfVTViMElwLUJwV25EMVZ4LVpOYWI2MU00?oc=5)
 
-### KOSPI — -5.46% (Watchlist)
+### Healthcare — +1.86% (Watchlist)
 
-**Drivers:** Down 5.46% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.28). KOSPI moved -5.46% relative to US Large Cap -1.11%, US Dollar Index +0.04% and Copper -1.02%; the divergence points to regional rather than purely global risk drivers. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
-**Sector impact:** Korean semiconductors, exporters and cyclicals
-
-- [News search: Search latest news about KOSPI](https://news.google.com/search?q=KOSPI%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
-
-### Technology — -2.98% (Significant)
-
-**Drivers:** Down 2.98% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.03). Technology moved -2.98%, -1.87 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -0.57% and VIX +10.48% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
-**Sector impact:** Growth, semiconductors and high-duration equities
-
-- [News search: Search latest news about Technology](https://news.google.com/search?q=Technology%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
-
-### Healthcare — +2.53% (Significant)
-
-**Drivers:** Up 2.53% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.35). Healthcare moved +2.53%, +3.64 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -0.57% and VIX +10.48% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Drivers:** Up 1.86% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.59). Healthcare moved +1.86%, +1.53 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -0.38% and VIX -2.43% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
 **Sector impact:** Defensive growth and healthcare services
 
 - [News search: Search latest news about Healthcare](https://news.google.com/search?q=Healthcare%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
 
-### Consumer Staples — +2.22% (Significant)
+### Gold — +1.82% (Watchlist)
 
-**Drivers:** Up 2.22% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.40). Consumer Staples moved +2.22%, +3.33 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -0.57% and VIX +10.48% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
-**Sector impact:** Defensive consumption
+**Drivers:** Up 1.82% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.33). Gold moved +1.82% alongside US Dollar Index -0.49%, US 10Y Treasury Yield -0.38% and VIX -2.43%; the combination helps distinguish safe-haven demand from a pure real-yield or dollar move. Related official-source items: US September PPI Preview: Will Inflation Surprise Again? US Stocks, Dollar and Gold Face Key Test - TradingKey; Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch; Dollar retreats from 18-month high despite strong inflation data - CNBC
+**Sector impact:** Gold miners; real yields, USD and defensive assets
 
-- [News search: Search latest news about Consumer Staples](https://news.google.com/search?q=Consumer%20Staples%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
-
-### US Tech — -1.88% (Watchlist)
-
-**Drivers:** Down 1.88% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.95). US Tech moved -1.88% over the 60-day baseline; the nearest cross-asset checks are US Large Cap -1.11%, US Dollar Index +0.04% and US 10Y Treasury Yield -0.57%. Related official-source items: Bond market whiplash: U.S. yields jump then pull back, reflecting Fed’s expected patience - The Globe and Mail; Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch; US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang
-**Sector impact:** Technology, semiconductors and high-duration growth
-
-- [Google News — Rates and Macro: Bond market whiplash: U.S. yields jump then pull back, reflecting Fed’s expected patience - The Globe and Mail](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTTlhOERUa2p5UEM4dkh5M2lMUzBQUkZyZ1BiRGttWTZ4TXVKNmtjUmFSelhkRm9JZXpVbkFGLUk0NkE0dDVwaU50UUFmTVV3STFieGNBalpqZDJJWGhHTXVVV2txMGo5UVVxRkQxNndEY0R1aE5PVkU4U3E0RlRrVkstMmVZUUZvejRDMTljcnZsMmc1Wkh6MUtlNjlsMTY4UmtESm43T2U0T3VCVVdFdDN2aGtOLTZ0?oc=5)
+- [Google News — Rates and Macro: US September PPI Preview: Will Inflation Surprise Again? US Stocks, Dollar and Gold Face Key Test - TradingKey](https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdGFYM2liOVpqd0U2SW5BZTFKanB0NDcxMTlfeV9RbXpNSDREenV4TF9OWVJqTVpzWmk3U2xfb1pKRFVGNGp6dm5YMXhLa0VnYnZXeFF3UnFQeG1rSEVxUTdHM3dPbHMzSkRGQnFJUjFMbXFGSXNaQVd4d0RucnVVLWJCYXdtTnJWVHZ4elp3SWVCdjFCX2s0TVhzbGlpaXJUZWJBdVg1VWJZMWhwUFpZaTc5aU5kbXpxc0o4SWdZWDdaSUhJODNDRUh1V2wzYzV2clh3WGtkdzNsdXVEdDBz?oc=5)
 - [Google News — Rates and Macro: Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch](https://news.google.com/rss/articles/CBMixgFBVV95cUxPcTVtY21OXzJHcEpRTndrNTdUSVdFX24zcklZeGxHTWVDZEk1YkVYalVhYkRsLUk2cC00cVU4THJOQ3hicmd2dFo2ekxBZUxvczY3QWREQzJPQk9hOGZnQVBuM2dHdV9RLUtWZ1ZvZ2RMU1BhY1N2S01Ed1FnVjdiSjlpUUxZOUkwV3U3bXpNVVJkY1RzeTJ2Q2c5NGIzT3UtRmJxTER2d2U5MHN1aVN4dmxNUHBRRDRzOWE4UnZ5TkJlc2ptZHc?oc=5)
-- [Google News — Rates and Macro: US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang](https://news.google.com/rss/articles/CBMinwFBVV95cUxNeG1OSVpEMWhaMmdOLUlyQnpxWTh6T3VwcmlaclBOV3BLaUEwazNONHNmLTNiWnRKcmpOR21jOXNQWEo5VXpiandrbkhrU0xDWU56TWt4QVpxMTZSZVJPTW9HbzVkSlIyVnZQVXN5Xzd6YV9KOUZfT0RDajlwNEJ2al9lU3BZY0ExcGxsaEdoMjg0V3NCVXVpOUNrdW5CT1E?oc=5)
+- [Google News — Rates and Macro: Dollar retreats from 18-month high despite strong inflation data - CNBC](https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3RhaFpXd1N0Q0w4VVdpWXU5WkEzV3dYM1pqM19hWHFRTjVMQ1c1YVNMejc2enVRWG1PY2RibV9FSllOTkg2eXRGalZoUGRmMk0tQlJPWFNJV1p3eEduZnhxUm0yaHdhUE1RTHdjeUF2NDlUUkJLYW4tWEdWbHUtdUN5VHRLRDdVZVMxRDNjVGlPZFdqQnNWUHIxUXA0bnkzT3hyc3pxcjJiRzZLUXZLNU41LTdFRDTSAbwBQVVfeXFMT2V2NzVUaUpqMTVVM0w0YWRfVHRveVJNNXFWZkdOeTBnZjlBV2JaMExQaDQ4T2tnWF92ZEFHVklBUk9YdGNhQ2tTX2Q5WWNFUVhST1c3bEVacG52XzJfazVISFBXaWpPU1dSdnFKalE3RnVkbHNaYk91LXJ5U082YlRleXM5QmZxenNIeGV0ZHNiUlE3cHNSbW03UUFPWGNyRzhmVDN4TUJfR0ZQcFpTaVlEb1prMGxMV2ZPQUM?oc=5)
 
-### Nikkei 225 — -1.82% (Watchlist)
+### Materials — +1.79% (Watchlist)
 
-**Drivers:** Down 1.82% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.06). Nikkei 225 moved -1.82% relative to US Large Cap -1.11%, US Dollar Index +0.04% and Copper -1.02%; the divergence points to regional rather than purely global risk drivers. Related official-source items: Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch; US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang; Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.
-**Sector impact:** Japanese exporters, banks and domestic cyclicals
+**Drivers:** Up 1.79% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.75). Materials moved +1.79% while Shanghai Composite -0.89%, Hang Seng -0.13% and Materials +1.79%; this provides a direct read on China-sensitive industrial demand versus a broad materials move. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Sector impact:** Mining, chemicals and raw materials
+
+- [News search: Search latest news about Materials](https://news.google.com/search?q=Materials%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
+
+### Consumer Discretionary — +1.71% (Watchlist)
+
+**Drivers:** Up 1.71% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.48). Consumer Discretionary moved +1.71%, +1.38 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -0.38% and VIX -2.43% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Sector impact:** Household demand and growth sensitivity
+
+- [News search: Search latest news about Consumer Discretionary](https://news.google.com/search?q=Consumer%20Discretionary%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
+
+### Energy — -1.58% (Watchlist)
+
+**Drivers:** Down 1.58% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.35). Energy moved -1.58%, -1.91 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -0.38% and VIX -2.43% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Sector impact:** Oil and gas producers
+
+- [News search: Search latest news about Energy](https://news.google.com/search?q=Energy%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
+
+### Financials — +1.38% (Watchlist)
+
+**Drivers:** Up 1.38% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.84). Financials moved +1.38%, +1.05 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -0.38% and VIX -2.43% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Sector impact:** Banks, brokers and insurers
+
+- [News search: Search latest news about Financials](https://news.google.com/search?q=Financials%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
+
+### Real Estate — +1.21% (Watchlist)
+
+**Drivers:** Up 1.21% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.70). Real Estate moved +1.21%, +0.88 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -0.38% and VIX -2.43% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Sector impact:** Property and long-duration income assets
+
+- [News search: Search latest news about Real Estate](https://news.google.com/search?q=Real%20Estate%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
+
+### US Industrials — +1.08% (Watchlist)
+
+**Drivers:** Up 1.08% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.48). US Industrials moved +1.08% over the 60-day baseline; the nearest cross-asset checks are US Large Cap +0.33%, US Dollar Index -0.49% and US 10Y Treasury Yield -0.38%. Related official-source items: Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch; US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang; Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.
+**Sector impact:** Industrials, financials and cyclical demand
 
 - [Google News — Rates and Macro: Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch](https://news.google.com/rss/articles/CBMixgFBVV95cUxPcTVtY21OXzJHcEpRTndrNTdUSVdFX24zcklZeGxHTWVDZEk1YkVYalVhYkRsLUk2cC00cVU4THJOQ3hicmd2dFo2ekxBZUxvczY3QWREQzJPQk9hOGZnQVBuM2dHdV9RLUtWZ1ZvZ2RMU1BhY1N2S01Ed1FnVjdiSjlpUUxZOUkwV3U3bXpNVVJkY1RzeTJ2Q2c5NGIzT3UtRmJxTER2d2U5MHN1aVN4dmxNUHBRRDRzOWE4UnZ5TkJlc2ptZHc?oc=5)
 - [Google News — Rates and Macro: US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang](https://news.google.com/rss/articles/CBMinwFBVV95cUxNeG1OSVpEMWhaMmdOLUlyQnpxWTh6T3VwcmlaclBOV3BLaUEwazNONHNmLTNiWnRKcmpOR21jOXNQWEo5VXpiandrbkhrU0xDWU56TWt4QVpxMTZSZVJPTW9HbzVkSlIyVnZQVXN5Xzd6YV9KOUZfT0RDajlwNEJ2al9lU3BZY0ExcGxsaEdoMjg0V3NCVXVpOUNrdW5CT1E?oc=5)
 - [Google News — Rates and Macro: Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRmpNMXhBd3IzV2lBX21jMFhkRXpUcXlvUXdaTGhveHZZRFdhRk9XNTBxMnlBcVU0dUxnM01lYnFldm4ydzQyTUhVa3pRUzdoY3haSU5SVnBYSzc4MjRxNFdvSVQwM2E5dXBjLTRnZGJCbTUwbVlWbTZCS1RzZ0c4dnVFS1BxRWpzNXd1Tl8tNXZHQ0YzcldWR2FWSjQ5alVaVTlYMnFnQ2ZKN29RMVItS0lfcEI1X2NaZElfVTViMElwLUJwV25EMVZ4LVpOYWI2MU00?oc=5)
 
-### US Large Cap — -1.11% (Watchlist)
+### CNY/AUD — +1.01% (Significant)
 
-**Drivers:** Down 1.11% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.73). US Large Cap moved -1.11% over the 60-day baseline; the nearest cross-asset checks are US Large Cap -1.11%, US Dollar Index +0.04% and US 10Y Treasury Yield -0.57%. Related official-source items: Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch; US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang; Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.
-**Sector impact:** US equities; growth and risk appetite
+**Drivers:** Up 1.01% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.68). the derived CNY/AUD cross moved +1.01%; the move should be read through its components, including US Dollar Index -0.49%, AUD/USD -0.84% and Shanghai Composite -0.89%. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Sector impact:** China demand, commodity prices and Australian dollar direction
 
-- [Google News — Rates and Macro: Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch](https://news.google.com/rss/articles/CBMixgFBVV95cUxPcTVtY21OXzJHcEpRTndrNTdUSVdFX24zcklZeGxHTWVDZEk1YkVYalVhYkRsLUk2cC00cVU4THJOQ3hicmd2dFo2ekxBZUxvczY3QWREQzJPQk9hOGZnQVBuM2dHdV9RLUtWZ1ZvZ2RMU1BhY1N2S01Ed1FnVjdiSjlpUUxZOUkwV3U3bXpNVVJkY1RzeTJ2Q2c5NGIzT3UtRmJxTER2d2U5MHN1aVN4dmxNUHBRRDRzOWE4UnZ5TkJlc2ptZHc?oc=5)
-- [Google News — Rates and Macro: US inflation rises 3.7% in Sept, boosting odds of Fed rate hike and pressuring Bitcoin and stocks. - Pluang](https://news.google.com/rss/articles/CBMinwFBVV95cUxNeG1OSVpEMWhaMmdOLUlyQnpxWTh6T3VwcmlaclBOV3BLaUEwazNONHNmLTNiWnRKcmpOR21jOXNQWEo5VXpiandrbkhrU0xDWU56TWt4QVpxMTZSZVJPTW9HbzVkSlIyVnZQVXN5Xzd6YV9KOUZfT0RDajlwNEJ2al9lU3BZY0ExcGxsaEdoMjg0V3NCVXVpOUNrdW5CT1E?oc=5)
-- [Google News — Rates and Macro: Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play - 24/7 Wall St.](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRmpNMXhBd3IzV2lBX21jMFhkRXpUcXlvUXdaTGhveHZZRFdhRk9XNTBxMnlBcVU0dUxnM01lYnFldm4ydzQyTUhVa3pRUzdoY3haSU5SVnBYSzc4MjRxNFdvSVQwM2E5dXBjLTRnZGJCbTUwbVlWbTZCS1RzZ0c4dnVFS1BxRWpzNXd1Tl8tNXZHQ0YzcldWR2FWSjQ5alVaVTlYMnFnQ2ZKN29RMVItS0lfcEI1X2NaZElfVTViMElwLUJwV25EMVZ4LVpOYWI2MU00?oc=5)
+- [News search: Search latest news about CNY/AUD](https://news.google.com/search?q=CNY/AUD%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
+
+### AUD/USD — -0.84% (Significant)
+
+**Drivers:** Down 0.84% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.16). AUD/USD moved -0.84% over the 60-day baseline; the nearest cross-asset checks are US Large Cap +0.33%, US Dollar Index -0.49% and US 10Y Treasury Yield -0.38%. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Sector impact:** Australian exporters, commodities and domestic risk appetite
+
+- [News search: Search latest news about AUD/USD](https://news.google.com/search?q=AUD/USD%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
+
+### US Dollar Index — -0.49% (Watchlist)
+
+**Drivers:** Down 0.49% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.67). the dollar gained -0.49% while AUD/USD -0.84% and CNY/USD +0.17%; this is consistent with firmer dollar demand, although the equity response was US Large Cap +0.33%. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Sector impact:** Global dollar liquidity and emerging-market conditions
+
+- [News search: Search latest news about US Dollar Index](https://news.google.com/search?q=US%20Dollar%20Index%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
+
+### CNY/USD — +0.17% (Significant)
+
+**Drivers:** Up 0.17% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.44). the derived CNY/USD cross moved +0.17%; the move should be read through its components, including US Dollar Index -0.49%, AUD/USD -0.84% and Shanghai Composite -0.89%. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.
+**Sector impact:** China-US trade, PBOC policy and dollar direction
+
+- [News search: Search latest news about CNY/USD](https://news.google.com/search?q=CNY/USD%20market%20news&hl=en-US&gl=US&ceid=US%3Aen)
 
 ## Data quality
 
 - Status: OK
 - Assets loaded: 31/31
-- News items checked: 9
+- News items checked: 8
 - Market data: Yahoo Finance chart endpoint
 - Rates: FRED DGS2/DGS10
 - News: Federal Reserve, EIA and Google News RSS
