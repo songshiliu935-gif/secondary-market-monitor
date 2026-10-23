@@ -1,23 +1,22 @@
 {
-  "as_of": "2026-10-23 00:02 UTC",
-  "updated_at_utc": "2026-10-23 00:02 UTC",
-  "updated_at_local": "2026-10-23 11:02 AEDT",
+  "as_of": "2026-10-23 23:53 UTC",
+  "updated_at_utc": "2026-10-23 23:53 UTC",
+  "updated_at_local": "2026-10-24 10:53 AEDT",
   "market_close_date": "2026-10-23",
-  "regime": "Mixed",
-  "summary": "Macro and commodities lead the story. Brent crude moved +4.05% and WTI +2.32%, while Gold moved -2.72% and Copper -2.19%; Natural Gas changed -0.36%. The commodity tape therefore points to an energy-led inflation and supply-risk signal rather than a broad, confirmed commodity shock.\n\nThe oil narrative is being monitored through supply and geopolitics. The closest matched feed items were: Oil Above $110 Sends Fresh Warning to Stock Market - TradingView; Why is US Stock Market Down Today? Dow Jones Slips 200 Points, S&P 500 Falls 1.25%, Nasdaq Climbs 1.04% as SpaceX Rally, AI Demand & Fed Rate Hike Ahead of Big Tech Earnings \u2014 Check Latest Updates - The Sunday Guardian. Geopolitical evidence specifically related to Iran, the Strait of Hormuz, OPEC or the Middle East was: No direct Iran, Strait of Hormuz, OPEC or Middle East headline was matched in the monitored feeds. The next confirmation points are EIA inventory data, OPEC+ supply guidance and whether U.S.\u2013Iran or Strait of Hormuz headlines translate into a sustained supply-risk premium. This is the key distinction between a temporary futures move and a durable repricing of physical supply risk.\n\nThat macro backdrop then transmits into indices. U.S. performance was KOSPI +3.29%, Nikkei 225 +0.85%, US Industrials +0.02%; Asian indices were Shanghai Composite -0.60%, Hang Seng -0.90%, Nikkei 225 +0.85%, KOSPI +3.29%. The dollar moved -0.20%, VIX +14.09%, the 10Y yield was 5.13 (+0.20% daily), the 2Y yield was 4.81, and the 10Y\u20132Y spread stood at 0.32%. The combination suggests that index moves were being filtered through rates, currency and regional growth sensitivity rather than driven by one uniform global risk signal.\n\nSector transmission was selective: Technology led at +1.67% versus Real Estate at -0.76%. Energy and Materials are the direct commodity beneficiaries, Industrials and Consumer Discretionary reflect growth sensitivity, while Utilities and Real Estate are being repriced through yields and income demand. The working market story is therefore a macro-to-market chain: commodity and geopolitical signals first, rates and FX second, then index and sector rotation. 5 significant statistical moves require review; source links and confidence labels are shown in Event Radar.",
+  "regime": "Risk-off",
+  "summary": "Macro and commodities lead the story. Brent crude moved -1.33% and WTI +3.99%, while Gold moved -1.24% and Copper +2.12%; Natural Gas changed +8.98%. The commodity tape therefore points to limited outright commodity repricing, with the next move likely to depend on a catalyst rather than a broad, confirmed commodity shock.\n\nThe oil narrative is being monitored through supply and geopolitics. The closest matched feed items were: U.S. refineries have been running at very high rates in 2026. Geopolitical evidence specifically related to Iran, the Strait of Hormuz, OPEC or the Middle East was: No direct Iran, Strait of Hormuz, OPEC or Middle East headline was matched in the monitored feeds. The next confirmation points are EIA inventory data, OPEC+ supply guidance and whether U.S.\u2013Iran or Strait of Hormuz headlines translate into a sustained supply-risk premium. This is the key distinction between a temporary futures move and a durable repricing of physical supply risk.\n\nThat macro backdrop then transmits into indices. U.S. performance was US Tech -0.21%, US Large Cap -0.52%, US Industrials -1.23%; Asian indices were Shanghai Composite -1.48%, Hang Seng -3.03%, Nikkei 225 -2.65%, KOSPI -3.52%. The dollar moved +0.14%, VIX +2.21%, the 10Y yield was 4.96 (-3.31% daily), the 2Y yield was 4.65, and the 10Y\u20132Y spread stood at 0.31%. The combination suggests that index moves were being filtered through rates, currency and regional growth sensitivity rather than driven by one uniform global risk signal.\n\nSector transmission was selective: Energy led at +2.60% versus Consumer Staples at -1.92%. Energy and Materials are the direct commodity beneficiaries, Industrials and Consumer Discretionary reflect growth sensitivity, while Utilities and Real Estate are being repriced through yields and income demand. The working market story is therefore a macro-to-market chain: commodity and geopolitical signals first, rates and FX second, then index and sector rotation. 5 significant statistical moves require review; source links and confidence labels are shown in Event Radar.",
   "source": "Yahoo Finance + FRED (DGS2/DGS10) \u00b7 official RSS: Federal Reserve and EIA",
   "assets": [
     {
       "name": "US Large Cap",
       "ticker": "^GSPC",
       "kind": "Index",
-      "close": 7663.4302,
-      "close_display": "7,663.43",
-      "change_pct": -1.21,
-      "z_score": -1.84,
-      "percentile": 91.7,
+      "close": 7623.6802,
+      "close_display": "7,623.68",
+      "change_pct": -0.52,
+      "z_score": -0.87,
+      "percentile": 55.0,
       "sparkline": [
-        7437.62988,
         7489.72021,
         7600.5,
         7736.52002,
@@ -76,9 +75,10 @@
         7690.72998,
         7712.56982,
         7757.16992,
-        7663.43018
+        7663.43018,
+        7623.68018
       ],
-      "signal": "Watchlist",
+      "signal": "Normal",
       "sector_lens": "US equities; growth and risk appetite",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "^GSPC",
@@ -91,13 +91,12 @@
       "name": "US Tech",
       "ticker": "^IXIC",
       "kind": "Index",
-      "close": 26008.8594,
-      "close_display": "26,008.86",
-      "change_pct": -2.6,
-      "z_score": -2.59,
-      "percentile": 98.3,
+      "close": 25955.3418,
+      "close_display": "25,955.34",
+      "change_pct": -0.21,
+      "z_score": -0.29,
+      "percentile": 18.3,
       "sparkline": [
-        25122.17969,
         25373.84961,
         25913.90039,
         26584.99023,
@@ -156,9 +155,10 @@
         26430.89062,
         26424.82031,
         26702.85938,
-        26008.85938
+        26008.85938,
+        25955.3418
       ],
-      "signal": "Significant",
+      "signal": "Normal",
       "sector_lens": "Technology, semiconductors and high-duration growth",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "^IXIC",
@@ -171,13 +171,12 @@
       "name": "US Industrials",
       "ticker": "^DJI",
       "kind": "Index",
-      "close": 52867.9805,
-      "close_display": "52,867.98",
-      "change_pct": 0.02,
-      "z_score": 0.02,
-      "percentile": 1.7,
+      "close": 52215.1602,
+      "close_display": "52,215.16",
+      "change_pct": -1.23,
+      "z_score": -1.87,
+      "percentile": 95.0,
       "sparkline": [
-        52208.05859,
         52485.03125,
         53178.41016,
         54085.87891,
@@ -236,9 +235,10 @@
         51966.03125,
         52495.87891,
         52856.08984,
-        52867.98047
+        52867.98047,
+        52215.16016
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Industrials, financials and cyclical demand",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "^DJI",
@@ -251,13 +251,12 @@
       "name": "Shanghai Composite",
       "ticker": "000001.SS",
       "kind": "Index",
-      "close": 3713.0281,
-      "close_display": "3,713.03",
-      "change_pct": -0.6,
-      "z_score": -0.7,
-      "percentile": 60.0,
+      "close": 3658.0259,
+      "close_display": "3,658.03",
+      "change_pct": -1.48,
+      "z_score": -1.79,
+      "percentile": 93.3,
       "sparkline": [
-        3867.03394,
         3876.7771,
         3814.198,
         3858.24512,
@@ -316,9 +315,10 @@
         3716.28394,
         3730.91992,
         3735.37012,
-        3713.02808
+        3713.02808,
+        3658.02588
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "China domestic growth, property and consumer demand",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "000001.SS",
@@ -331,13 +331,12 @@
       "name": "Hang Seng",
       "ticker": "^HSI",
       "kind": "Index",
-      "close": 23651.8691,
-      "close_display": "23,651.87",
-      "change_pct": -0.9,
-      "z_score": -0.91,
-      "percentile": 61.7,
+      "close": 22934.6797,
+      "close_display": "22,934.68",
+      "change_pct": -3.03,
+      "z_score": -3.2,
+      "percentile": 100.0,
       "sparkline": [
-        25310.84961,
         25807.91992,
         25858.88086,
         25884.42969,
@@ -396,9 +395,10 @@
         24062.7207,
         24186.83008,
         23867.74023,
-        23651.86914
+        23651.86914,
+        22934.67969
       ],
-      "signal": "Normal",
+      "signal": "Major",
       "sector_lens": "Hong Kong internet, China property and financials",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "^HSI",
@@ -411,13 +411,12 @@
       "name": "Nikkei 225",
       "ticker": "^N225",
       "kind": "Index",
-      "close": 64621.2383,
-      "close_display": "64,621.24",
-      "change_pct": 0.85,
-      "z_score": 0.53,
-      "percentile": 50.0,
+      "close": 62907.8398,
+      "close_display": "62,907.84",
+      "change_pct": -2.65,
+      "z_score": -1.55,
+      "percentile": 86.7,
       "sparkline": [
-        66422.60156,
         64611.14844,
         64931.19141,
         62364.92188,
@@ -476,9 +475,10 @@
         65324.28906,
         64916.69922,
         64075.42188,
-        64621.23828
+        64621.23828,
+        62907.83984
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Japanese exporters, banks and domestic cyclicals",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "^N225",
@@ -491,13 +491,12 @@
       "name": "KOSPI",
       "ticker": "^KS11",
       "kind": "Index",
-      "close": 5735.6602,
-      "close_display": "5,735.66",
-      "change_pct": 3.29,
-      "z_score": 0.89,
+      "close": 5533.77,
+      "close_display": "5,533.77",
+      "change_pct": -3.52,
+      "z_score": -0.83,
       "percentile": 70.0,
       "sparkline": [
-        7096.89014,
         6690.62012,
         6755.75,
         6023.66016,
@@ -556,7 +555,8 @@
         5668.0498,
         5768.00977,
         5552.74023,
-        5735.66016
+        5735.66016,
+        5533.77002
       ],
       "signal": "Normal",
       "sector_lens": "Korean semiconductors, exporters and cyclicals",
@@ -571,13 +571,12 @@
       "name": "WTI Crude",
       "ticker": "CL=F",
       "kind": "Commodity",
-      "close": 99.4,
-      "close_display": "99.40",
-      "change_pct": 2.32,
-      "z_score": 0.71,
-      "percentile": 55.0,
+      "close": 103.44,
+      "close_display": "103.44",
+      "change_pct": 3.99,
+      "z_score": 1.4,
+      "percentile": 86.7,
       "sparkline": [
-        83.59,
         84.67,
         80.34,
         75.77,
@@ -636,9 +635,10 @@
         103.66,
         101.79,
         97.15,
-        99.4
+        99.47,
+        103.44
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Energy producers; airlines, transport and chemicals",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "CL=F",
@@ -651,13 +651,12 @@
       "name": "Brent Crude",
       "ticker": "BZ=F",
       "kind": "Commodity",
-      "close": 113.23,
-      "close_display": "113.23",
-      "change_pct": 4.05,
-      "z_score": 1.34,
-      "percentile": 88.3,
+      "close": 111.66,
+      "close_display": "111.66",
+      "change_pct": -1.33,
+      "z_score": -0.69,
+      "percentile": 50.0,
       "sparkline": [
-        89.03,
         90.12,
         83.77,
         79.36,
@@ -716,9 +715,10 @@
         109.55,
         108.79,
         108.82,
-        113.23
+        113.17,
+        111.66
       ],
-      "signal": "Watchlist",
+      "signal": "Normal",
       "sector_lens": "Energy producers; airlines, transport and chemicals",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "BZ=F",
@@ -731,13 +731,12 @@
       "name": "Gold",
       "ticker": "GC=F",
       "kind": "Commodity",
-      "close": 4037.3,
-      "close_display": "4,037.30",
-      "change_pct": -2.72,
-      "z_score": -2.14,
-      "percentile": 91.7,
+      "close": 4010.0,
+      "close_display": "4,010.00",
+      "change_pct": -1.24,
+      "z_score": -0.95,
+      "percentile": 70.0,
       "sparkline": [
-        4100.1001,
         4107.0,
         4090.5,
         4152.6001,
@@ -796,9 +795,10 @@
         4160.1001,
         4142.6001,
         4150.0,
-        4037.30005
+        4060.3999,
+        4010.0
       ],
-      "signal": "Significant",
+      "signal": "Normal",
       "sector_lens": "Gold miners; real yields, USD and defensive assets",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "GC=F",
@@ -811,13 +811,12 @@
       "name": "Silver",
       "ticker": "SI=F",
       "kind": "Commodity",
-      "close": 54.555,
-      "close_display": "54.56",
-      "change_pct": -4.99,
-      "z_score": -2.28,
-      "percentile": 96.7,
+      "close": 53.96,
+      "close_display": "53.96",
+      "change_pct": -1.47,
+      "z_score": -0.62,
+      "percentile": 50.0,
       "sparkline": [
-        58.815,
         57.591,
         57.667,
         60.056,
@@ -876,9 +875,10 @@
         56.974,
         57.706,
         57.422,
-        54.555
+        54.764,
+        53.96
       ],
-      "signal": "Significant",
+      "signal": "Normal",
       "sector_lens": "Precious metals and industrial demand",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "SI=F",
@@ -891,13 +891,12 @@
       "name": "Copper",
       "ticker": "HG=F",
       "kind": "Commodity",
-      "close": 6.4,
-      "close_display": "6.40",
-      "change_pct": -2.19,
-      "z_score": -1.76,
-      "percentile": 95.0,
+      "close": 6.4975,
+      "close_display": "6.50",
+      "change_pct": 2.12,
+      "z_score": 1.58,
+      "percentile": 90.0,
       "sparkline": [
-        6.4445,
         6.436,
         6.514,
         6.6185,
@@ -956,7 +955,8 @@
         6.538,
         6.5665,
         6.543,
-        6.4
+        6.3625,
+        6.4975
       ],
       "signal": "Watchlist",
       "sector_lens": "Mining, construction, industrials and China demand",
@@ -971,13 +971,12 @@
       "name": "Natural Gas",
       "ticker": "NG=F",
       "kind": "Commodity",
-      "close": 2.78,
-      "close_display": "2.78",
-      "change_pct": -0.36,
-      "z_score": -0.18,
-      "percentile": 8.3,
+      "close": 3.047,
+      "close_display": "3.05",
+      "change_pct": 8.98,
+      "z_score": 3.43,
+      "percentile": 98.3,
       "sparkline": [
-        2.758,
         2.747,
         2.781,
         2.682,
@@ -1036,9 +1035,10 @@
         3.058,
         2.963,
         2.79,
-        2.78
+        2.796,
+        3.047
       ],
-      "signal": "Normal",
+      "signal": "Major",
       "sector_lens": "Gas producers; utilities, chemicals and energy-intensive users",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "NG=F",
@@ -1051,13 +1051,12 @@
       "name": "AUD/USD",
       "ticker": "AUDUSD=X",
       "kind": "FX",
-      "close": 0.7018,
+      "close": 0.7038,
       "close_display": "0.70",
-      "change_pct": -0.17,
-      "z_score": -0.45,
-      "percentile": 33.3,
+      "change_pct": 0.26,
+      "z_score": 0.65,
+      "percentile": 53.3,
       "sparkline": [
-        0.70459,
         0.69976,
         0.70467,
         0.70573,
@@ -1116,7 +1115,8 @@
         0.69828,
         0.70066,
         0.70293,
-        0.70175
+        0.70198,
+        0.70378
       ],
       "signal": "Normal",
       "sector_lens": "Australian exporters, commodities and domestic risk appetite",
@@ -1131,13 +1131,12 @@
       "name": "US 2Y Treasury Yield",
       "ticker": "FRED:DGS2",
       "kind": "Yield",
-      "close": 4.81,
-      "close_display": "4.81",
-      "change_pct": 0.42,
-      "z_score": 0.21,
-      "percentile": 21.7,
+      "close": 4.65,
+      "close_display": "4.65",
+      "change_pct": -3.33,
+      "z_score": -3.02,
+      "percentile": 98.3,
       "sparkline": [
-        4.26,
         4.22,
         4.23,
         4.28,
@@ -1196,9 +1195,10 @@
         4.74,
         4.77,
         4.79,
-        4.81
+        4.81,
+        4.65
       ],
-      "signal": "Normal",
+      "signal": "Major",
       "sector_lens": "Fed expectations, front-end rates and financial conditions",
       "source_name": "FRED / Federal Reserve Bank of St. Louis",
       "source_symbol": "DGS2",
@@ -1211,13 +1211,12 @@
       "name": "US 10Y Treasury Yield",
       "ticker": "FRED:DGS10",
       "kind": "Yield",
-      "close": 5.13,
-      "close_display": "5.13",
-      "change_pct": 0.2,
-      "z_score": 0.04,
-      "percentile": 8.3,
+      "close": 4.96,
+      "close_display": "4.96",
+      "change_pct": -3.31,
+      "z_score": -3.51,
+      "percentile": 100.0,
       "sparkline": [
-        4.61,
         4.67,
         4.68,
         4.75,
@@ -1276,9 +1275,10 @@
         5.09,
         5.15,
         5.12,
-        5.13
+        5.13,
+        4.96
       ],
-      "signal": "Normal",
+      "signal": "Major",
       "sector_lens": "Long-term rates, duration assets, mortgages and banks",
       "source_name": "FRED / Federal Reserve Bank of St. Louis",
       "source_symbol": "DGS10",
@@ -1291,13 +1291,12 @@
       "name": "VIX",
       "ticker": "^VIX",
       "kind": "Risk",
-      "close": 19.03,
-      "close_display": "19.03",
-      "change_pct": 14.09,
-      "z_score": 2.28,
-      "percentile": 96.7,
+      "close": 19.45,
+      "close_display": "19.45",
+      "change_pct": 2.21,
+      "z_score": 0.3,
+      "percentile": 26.7,
       "sparkline": [
-        15.99,
         15.86,
         16.5,
         15.81,
@@ -1356,9 +1355,10 @@
         18.44,
         17.31,
         16.68,
-        19.03
+        19.03,
+        19.45
       ],
-      "signal": "Significant",
+      "signal": "Normal",
       "sector_lens": "Equity volatility and risk appetite",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "^VIX",
@@ -1371,13 +1371,12 @@
       "name": "US Dollar Index",
       "ticker": "DX-Y.NYB",
       "kind": "FX",
-      "close": 101.575,
-      "close_display": "101.57",
-      "change_pct": -0.2,
-      "z_score": -0.66,
-      "percentile": 48.3,
+      "close": 101.752,
+      "close_display": "101.75",
+      "change_pct": 0.14,
+      "z_score": 0.41,
+      "percentile": 31.7,
       "sparkline": [
-        100.01,
         99.8,
         99.96,
         99.89,
@@ -1436,7 +1435,8 @@
         101.98,
         101.73,
         101.78,
-        101.575
+        101.61,
+        101.752
       ],
       "signal": "Normal",
       "sector_lens": "Global dollar liquidity and emerging-market conditions",
@@ -1451,14 +1451,12 @@
       "name": "Technology",
       "ticker": "XLK",
       "kind": "Sector",
-      "close": 188.54,
-      "close_display": "188.54",
-      "change_pct": 1.67,
-      "z_score": 0.96,
-      "percentile": 78.3,
+      "close": 183.23,
+      "close_display": "183.23",
+      "change_pct": 0.49,
+      "z_score": 0.2,
+      "percentile": 31.7,
       "sparkline": [
-        166.57001,
-        175.73,
         175.35001,
         178.03999,
         186.89999,
@@ -1516,7 +1514,9 @@
         183.47,
         185.96001,
         185.44,
-        188.53999
+        188.53999,
+        182.34,
+        183.23
       ],
       "signal": "Normal",
       "sector_lens": "Growth, semiconductors and high-duration equities",
@@ -1531,14 +1531,12 @@
       "name": "Financials",
       "ticker": "XLF",
       "kind": "Sector",
-      "close": 56.04,
-      "close_display": "56.04",
-      "change_pct": 0.57,
-      "z_score": 0.76,
-      "percentile": 51.7,
+      "close": 55.9,
+      "close_display": "55.90",
+      "change_pct": -1.32,
+      "z_score": -1.73,
+      "percentile": 91.7,
       "sparkline": [
-        56.68,
-        57.0,
         56.94,
         57.38,
         57.88,
@@ -1596,9 +1594,11 @@
         55.52,
         55.06,
         55.72,
-        56.04
+        56.04,
+        56.65,
+        55.9
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Banks, brokers and insurers",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "XLF",
@@ -1611,14 +1611,12 @@
       "name": "Energy",
       "ticker": "XLE",
       "kind": "Sector",
-      "close": 68.16,
-      "close_display": "68.16",
-      "change_pct": 0.28,
-      "z_score": 0.01,
-      "percentile": 20.0,
+      "close": 69.33,
+      "close_display": "69.33",
+      "change_pct": 2.6,
+      "z_score": 1.75,
+      "percentile": 93.3,
       "sparkline": [
-        58.65,
-        58.96,
         59.55,
         58.79,
         58.52,
@@ -1676,9 +1674,11 @@
         68.24,
         67.8,
         67.97,
-        68.16
+        68.16,
+        67.57,
+        69.33
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Oil and gas producers",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "XLE",
@@ -1691,14 +1691,12 @@
       "name": "Industrials",
       "ticker": "XLI",
       "kind": "Sector",
-      "close": 168.31,
-      "close_display": "168.31",
-      "change_pct": 0.91,
-      "z_score": 1.14,
-      "percentile": 66.7,
+      "close": 164.62,
+      "close_display": "164.62",
+      "change_pct": -1.27,
+      "z_score": -1.37,
+      "percentile": 86.7,
       "sparkline": [
-        176.66,
-        178.39,
         179.84,
         183.16,
         186.39999,
@@ -1756,7 +1754,9 @@
         167.75999,
         166.67999,
         166.8,
-        168.31
+        168.31,
+        166.73,
+        164.62
       ],
       "signal": "Watchlist",
       "sector_lens": "Cyclicals, capital goods and transport",
@@ -1771,14 +1771,12 @@
       "name": "Materials",
       "ticker": "XLB",
       "kind": "Sector",
-      "close": 51.32,
-      "close_display": "51.32",
-      "change_pct": 0.18,
-      "z_score": 0.18,
-      "percentile": 13.3,
+      "close": 51.31,
+      "close_display": "51.31",
+      "change_pct": -0.74,
+      "z_score": -0.76,
+      "percentile": 56.7,
       "sparkline": [
-        51.74,
-        51.64,
         50.43,
         51.01,
         52.0,
@@ -1836,7 +1834,9 @@
         50.92,
         50.95,
         51.23,
-        51.32
+        51.32,
+        51.69,
+        51.31
       ],
       "signal": "Normal",
       "sector_lens": "Mining, chemicals and raw materials",
@@ -1851,14 +1851,12 @@
       "name": "Healthcare",
       "ticker": "XLV",
       "kind": "Sector",
-      "close": 178.94,
-      "close_display": "178.94",
-      "change_pct": -0.49,
-      "z_score": -0.58,
-      "percentile": 41.7,
+      "close": 179.28,
+      "close_display": "179.28",
+      "change_pct": -1.11,
+      "z_score": -1.15,
+      "percentile": 70.0,
       "sparkline": [
-        166.24001,
-        163.52,
         162.55,
         162.24001,
         162.10001,
@@ -1916,9 +1914,11 @@
         176.71001,
         175.64999,
         179.82001,
-        178.94
+        178.94,
+        181.3,
+        179.28
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Defensive growth and healthcare services",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "XLV",
@@ -1931,14 +1931,12 @@
       "name": "Utilities",
       "ticker": "XLU",
       "kind": "Sector",
-      "close": 42.0,
-      "close_display": "42.00",
-      "change_pct": 0.29,
-      "z_score": 0.44,
-      "percentile": 15.0,
+      "close": 42.56,
+      "close_display": "42.56",
+      "change_pct": -0.72,
+      "z_score": -0.66,
+      "percentile": 55.0,
       "sparkline": [
-        44.91,
-        44.66,
         44.35,
         44.36,
         44.11,
@@ -1996,7 +1994,9 @@
         42.21,
         41.36,
         41.88,
-        42.0
+        42.0,
+        42.87,
+        42.56
       ],
       "signal": "Normal",
       "sector_lens": "Defensive income and rate sensitivity",
@@ -2011,14 +2011,12 @@
       "name": "Real Estate",
       "ticker": "XLRE",
       "kind": "Sector",
-      "close": 42.06,
-      "close_display": "42.06",
-      "change_pct": -0.76,
-      "z_score": -0.79,
-      "percentile": 61.7,
+      "close": 42.57,
+      "close_display": "42.57",
+      "change_pct": 0.12,
+      "z_score": 0.3,
+      "percentile": 11.7,
       "sparkline": [
-        45.96,
-        45.3,
         45.07,
         45.18,
         45.17,
@@ -2076,7 +2074,9 @@
         42.16,
         41.67,
         42.38,
-        42.06
+        42.06,
+        42.52,
+        42.57
       ],
       "signal": "Normal",
       "sector_lens": "Property and long-duration income assets",
@@ -2091,14 +2091,12 @@
       "name": "Consumer Discretionary",
       "ticker": "XLY",
       "kind": "Sector",
-      "close": 115.53,
-      "close_display": "115.53",
-      "change_pct": 0.03,
-      "z_score": -0.05,
-      "percentile": 0.0,
+      "close": 113.1,
+      "close_display": "113.10",
+      "change_pct": -1.66,
+      "z_score": -1.64,
+      "percentile": 88.3,
       "sparkline": [
-        111.61,
-        112.39,
         116.09,
         118.21,
         118.29,
@@ -2156,9 +2154,11 @@
         112.46,
         114.46,
         115.5,
-        115.53
+        115.53,
+        115.01,
+        113.1
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Household demand and growth sensitivity",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "XLY",
@@ -2171,14 +2171,12 @@
       "name": "Consumer Staples",
       "ticker": "XLP",
       "kind": "Sector",
-      "close": 87.11,
-      "close_display": "87.11",
-      "change_pct": -0.73,
-      "z_score": -0.83,
-      "percentile": 58.3,
+      "close": 88.26,
+      "close_display": "88.26",
+      "change_pct": -1.92,
+      "z_score": -1.98,
+      "percentile": 93.3,
       "sparkline": [
-        87.36,
-        85.47,
         85.05,
         84.86,
         85.37,
@@ -2236,9 +2234,11 @@
         87.62,
         87.21,
         87.75,
-        87.11
+        87.11,
+        89.99,
+        88.26
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Defensive consumption",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "XLP",
@@ -2251,13 +2251,12 @@
       "name": "CNY/USD",
       "ticker": "Derived",
       "kind": "FX",
-      "close": 0.150035,
-      "close_display": "0.1500",
-      "change_pct": 0.19,
-      "z_score": 2.7,
-      "percentile": 96.7,
+      "close": 0.150137,
+      "close_display": "0.1501",
+      "change_pct": 0.26,
+      "z_score": 3.99,
+      "percentile": 100.0,
       "sparkline": [
-        0.148128,
         0.148098,
         0.148078,
         0.148155,
@@ -2316,9 +2315,10 @@
         0.149457,
         0.149748,
         0.149748,
-        0.150035
+        0.149748,
+        0.150137
       ],
-      "signal": "Significant",
+      "signal": "Major",
       "sector_lens": "China-US trade, PBOC policy and dollar direction",
       "source_name": "Derived from Yahoo Finance CNY=X (inverted USD/CNY)",
       "source_symbol": "CNY/USD",
@@ -2331,13 +2331,12 @@
       "name": "CNY/AUD",
       "ticker": "Derived",
       "kind": "FX",
-      "close": 0.2138,
-      "close_display": "0.2138",
-      "change_pct": 0.36,
-      "z_score": 0.89,
-      "percentile": 66.7,
+      "close": 0.213329,
+      "close_display": "0.2133",
+      "change_pct": 0.0,
+      "z_score": -0.05,
+      "percentile": 0.0,
       "sparkline": [
-        0.210234,
         0.211641,
         0.210138,
         0.209931,
@@ -2396,7 +2395,8 @@
         0.214035,
         0.213724,
         0.213034,
-        0.2138
+        0.213322,
+        0.213329
       ],
       "signal": "Normal",
       "sector_lens": "China demand, commodity prices and Australian dollar direction",
@@ -2412,13 +2412,12 @@
       "name": "10Y\u20132Y Yield Spread",
       "ticker": "Derived",
       "kind": "Yield",
-      "close": 0.32,
-      "close_display": "0.32%",
-      "change_pct": -3.03,
-      "z_score": -0.35,
-      "percentile": 33.3,
+      "close": 0.31,
+      "close_display": "0.31%",
+      "change_pct": -3.13,
+      "z_score": -0.36,
+      "percentile": 36.7,
       "sparkline": [
-        0.35,
         0.45,
         0.45,
         0.47,
@@ -2477,7 +2476,8 @@
         0.35,
         0.38,
         0.33,
-        0.32
+        0.32,
+        0.31
       ],
       "signal": "Normal",
       "sector_lens": "Yield-curve slope; growth expectations, banks and recession risk",
@@ -2492,74 +2492,29 @@
   ],
   "events": [
     {
-      "asset": "VIX",
-      "change_pct": 14.09,
-      "level": "Significant",
+      "asset": "Natural Gas",
+      "change_pct": 8.98,
+      "level": "Major",
       "confidence": "Hypothesis",
-      "drivers": "Up 14.09% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.28). VIX rose +14.09% while US Large Cap -1.21%, US Tech -2.60% and US Industrials +0.02%; volatility therefore increased without a broad equity sell-off, pointing to hedging or event risk rather than a confirmed risk-off session. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
-      "sectors": "Equity volatility and risk appetite",
+      "drivers": "Up 8.98% move, an unusually large move relative to the 60-day baseline (unusual-move score 3.43). Natural Gas moved +8.98% versus WTI Crude +3.99%, Brent Crude -1.33% and Energy +2.60%; the relative move indicates whether the session was broad energy strength or concentrated in one contract. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Gas producers; utilities, chemicals and energy-intensive users",
       "evidence": [
         {
           "source": "News search",
-          "title": "Search latest news about VIX",
-          "link": "https://news.google.com/search?q=VIX%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "title": "Search latest news about Natural Gas",
+          "link": "https://news.google.com/search?q=Natural%20Gas%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
           "published": ""
         }
       ]
     },
     {
-      "asset": "Silver",
-      "change_pct": -4.99,
-      "level": "Significant",
-      "confidence": "Likely",
-      "drivers": "Down 4.99% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.28). Silver moved -4.99% alongside US Dollar Index -0.20%, US 10Y Treasury Yield +0.20% and VIX +14.09%; the combination helps distinguish safe-haven demand from a pure real-yield or dollar move. Related official-source items: Bond Traders Are Backing Away From Another Fed Rate Hike. Mortgage Rates May Not Follow. - www.thewealthadvisor.com; Bond traders are backing off Fed rate hike bets \u2014 here's what it means for mortgage rates - Yahoo Finance; Why is US Stock Market Down Today? Dow Jones Slips 200 Points, S&P 500 Falls 1.25%, Nasdaq Climbs 1.04% as SpaceX Rally, AI Demand & Fed Rate Hike Ahead of Big Tech Earnings \u2014 Check Latest Updates - The Sunday Guardian",
-      "sectors": "Precious metals and industrial demand",
-      "evidence": [
-        {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Bond Traders Are Backing Away From Another Fed Rate Hike. Mortgage Rates May Not Follow. - www.thewealthadvisor.com",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdTR4WDV1WEZwTnhmRGdhY0tOUnZwQ2hNVjBtNlhXb003OS02b0pvQ1ZoNmNCbDV6ckFGQkpDWm4xYUY1ODhqU1B4Zkh2eXR5OFZRcEM3VFNlWTc0ejZBZmpkaTZwblY2N0NNblBlZjhIbFctRFd6YnNQYXdBTXNLZ0Y3ODRUcVFURURnTHE4cnczazlrYWVka3NkR3ZabEp1b1k0WEtnRXgyQ1lyRGNmZnlZaUg2Z0ozZXhCcWZtZw?oc=5",
-          "published": "2026-10-22T23:08:27+00:00"
-        },
-        {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Bond traders are backing off Fed rate hike bets \u2014 here's what it means for mortgage rates - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQ0V6MC1Sekt2RU45WGJNTzQ1MDRObjdidVAtOEl0azB3NDZTeUtESUVMNkhVWHk4UU9jekxqSTQtY2FxSDlMV1hYdWdqWE1NbjEteEdjOXBVeFVqTHZNcTlEQnd0b3pkRXZKaVgyMEE5QzA3RVYyN010TGRoMDRlM3ZaOU1hd1liTzZFMkthRDBRZEpvZmc2Qy1maDkyeFVXS0l5aGw4eng1cmh0M1dIYTk2dFdycWlLQktMMmNaM1J0dFpGVXJQOEZfcTlnNnJEb21vY1hIN2hwbHVi?oc=5",
-          "published": "2026-10-22T18:05:07+00:00"
-        },
-        {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Why is US Stock Market Down Today? Dow Jones Slips 200 Points, S&P 500 Falls 1.25%, Nasdaq Climbs 1.04% as SpaceX Rally, AI Demand & Fed Rate Hike Ahead of Big Tech Earnings \u2014 Check Latest Updates - The Sunday Guardian",
-          "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPaDFRUVBra1duT1NfZlkybm8ybmJfUlQwdFMwa0E1eXNGMDdjaTNYZjhfVGdvMGhyZVdoZDNTQ1ZEX09BRlNnT2xIYWFKSm9zNk0tSnlldjA2THl2M0pFQmdERkJHU3MwTG9Obm9fTjhFSG4tMWRkeGhMb0JLbkRvQTdTUzN1SFR6WW92UHJoVWhid01aU2FRMHNmdFRNLUIwQ2VjVmRRd2tBZ0Z3LVVIRlUta3l0NU9LbFZEaXBFbjhxZDdlQ21lajdPcnRrZ2NKYmxVdUIxd0U4YjBJcVdRRkZuVEY5b3daazllUGM4SmVMYmNoN2ZfcmZXRElaNkxienplRktNTUFOSFRfSEtWTjVCclJrcXAzRl9fSUdNTWpBMGxNWHBzZmtXZWRsNWtTVEc0ZWpJRGFMdmdsWDZ2LURmY291ZzJ2VDJvVDJGZmjSAdYCQVVfeXFMTldpV2dHX1VJLXNKZGc1MVNwb2ZTRFQ4UUxBUTU1V2wyLS1fZDQ0OVh0bGNiXzMxVkp5ak54cG9Kckl3Vkk0ZFhkN280eE0wY3FuTEtteERwcy1yOVhabHZ2TXVrLXN4OXRYenBqeUswUGtaNjlJQmg3aktVQVhqU3l3c19HU2IwNXFhaVZtaGRuRGNyOGZWSXhhaFRvZnBITWlmbHgyaEN3MDNBdzN4SDhoZFl2dlFOYXBYODBTRlJKWnI3d1c0NVZJNFA0cUY3WEZoWlRuUFFSUnFrczVnUkhWcHU4UUs4Nm5rWGJIZzVRTk9uS3p4cHpzb1JURXBSTk5UNHNoYW5CZUtjanRSLVh6YktVVDExYmM5MEN3N2hxeDd4SmN2U2NjeXJyTGxwdi1yWWVBNlJ5SFROWFoyQi03NTE4QXBFd2pvZFQ5Z1F0UnZtREZn?oc=5",
-          "published": "2026-10-22T16:17:58+00:00"
-        }
-      ]
-    },
-    {
-      "asset": "Brent Crude",
-      "change_pct": 4.05,
+      "asset": "WTI Crude",
+      "change_pct": 3.99,
       "level": "Watchlist",
       "confidence": "Likely",
-      "drivers": "Up 4.05% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.34). Brent Crude moved +4.05% versus WTI Crude +2.32%, Brent Crude +4.05% and Energy +0.28%; the relative move indicates whether the session was broad energy strength or concentrated in one contract. Related official-source items: Oil Above $110 Sends Fresh Warning to Stock Market - TradingView; Why is US Stock Market Down Today? Dow Jones Slips 200 Points, S&P 500 Falls 1.25%, Nasdaq Climbs 1.04% as SpaceX Rally, AI Demand & Fed Rate Hike Ahead of Big Tech Earnings \u2014 Check Latest Updates - The Sunday Guardian; U.S. refineries have been running at very high rates in 2026",
+      "drivers": "Up 3.99% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.40). WTI Crude moved +3.99% versus WTI Crude +3.99%, Brent Crude -1.33% and Energy +2.60%; the relative move indicates whether the session was broad energy strength or concentrated in one contract. Related official-source items: U.S. refineries have been running at very high rates in 2026",
       "sectors": "Energy producers; airlines, transport and chemicals",
       "evidence": [
-        {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Oil Above $110 Sends Fresh Warning to Stock Market - TradingView",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVZpVkF2a1JabkFBT2RtUjhYcy05M0czUDJac3BSUnRJOTM4ZjJkRXV1WDhxYUNQWERkQ3g1cFNoS3V0ZjdhQzBsSUNvb1JmdV9DS256bXlYektoa3NEdXZPZmt6dzN0akMydzM4UDFJbjNWQjNyc0ZtRW5YV1p5QTJTWWJ2TzhFUDlaeWJlMzhTaDFzd0I3SkptMUt3RlgyeEZqbGlncjFTOGpmblE?oc=5",
-          "published": "2026-10-22T19:47:29+00:00"
-        },
-        {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Why is US Stock Market Down Today? Dow Jones Slips 200 Points, S&P 500 Falls 1.25%, Nasdaq Climbs 1.04% as SpaceX Rally, AI Demand & Fed Rate Hike Ahead of Big Tech Earnings \u2014 Check Latest Updates - The Sunday Guardian",
-          "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPaDFRUVBra1duT1NfZlkybm8ybmJfUlQwdFMwa0E1eXNGMDdjaTNYZjhfVGdvMGhyZVdoZDNTQ1ZEX09BRlNnT2xIYWFKSm9zNk0tSnlldjA2THl2M0pFQmdERkJHU3MwTG9Obm9fTjhFSG4tMWRkeGhMb0JLbkRvQTdTUzN1SFR6WW92UHJoVWhid01aU2FRMHNmdFRNLUIwQ2VjVmRRd2tBZ0Z3LVVIRlUta3l0NU9LbFZEaXBFbjhxZDdlQ21lajdPcnRrZ2NKYmxVdUIxd0U4YjBJcVdRRkZuVEY5b3daazllUGM4SmVMYmNoN2ZfcmZXRElaNkxienplRktNTUFOSFRfSEtWTjVCclJrcXAzRl9fSUdNTWpBMGxNWHBzZmtXZWRsNWtTVEc0ZWpJRGFMdmdsWDZ2LURmY291ZzJ2VDJvVDJGZmjSAdYCQVVfeXFMTldpV2dHX1VJLXNKZGc1MVNwb2ZTRFQ4UUxBUTU1V2wyLS1fZDQ0OVh0bGNiXzMxVkp5ak54cG9Kckl3Vkk0ZFhkN280eE0wY3FuTEtteERwcy1yOVhabHZ2TXVrLXN4OXRYenBqeUswUGtaNjlJQmg3aktVQVhqU3l3c19HU2IwNXFhaVZtaGRuRGNyOGZWSXhhaFRvZnBITWlmbHgyaEN3MDNBdzN4SDhoZFl2dlFOYXBYODBTRlJKWnI3d1c0NVZJNFA0cUY3WEZoWlRuUFFSUnFrczVnUkhWcHU4UUs4Nm5rWGJIZzVRTk9uS3p4cHpzb1JURXBSTk5UNHNoYW5CZUtjanRSLVh6YktVVDExYmM5MEN3N2hxeDd4SmN2U2NjeXJyTGxwdi1yWWVBNlJ5SFROWFoyQi03NTE4QXBFd2pvZFQ5Z1F0UnZtREZn?oc=5",
-          "published": "2026-10-22T16:17:58+00:00"
-        },
         {
           "source": "EIA \u2014 Today in Energy",
           "feed_url": "https://www.eia.gov/rss/todayinenergy.xml",
@@ -2570,73 +2525,91 @@
       ]
     },
     {
-      "asset": "Gold",
-      "change_pct": -2.72,
-      "level": "Significant",
-      "confidence": "Likely",
-      "drivers": "Down 2.72% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.14). Gold moved -2.72% alongside US Dollar Index -0.20%, US 10Y Treasury Yield +0.20% and VIX +14.09%; the combination helps distinguish safe-haven demand from a pure real-yield or dollar move. Related official-source items: The Fed\u2019s Dilemma: Can Markets Damp Inflation or Is Another Rate Hike Necessary? - Barron's; Gold Falls Below $4,100, Risks Dropping to $4,000 as High Oil Prices Reinforce Expectations of High Fed Rates - TradingKey; Bitcoin outlook hinges on Fed policy, inflation, and ETF demand for Q4 gains - Pluang",
-      "sectors": "Gold miners; real yields, USD and defensive assets",
+      "asset": "US 2Y Treasury Yield",
+      "change_pct": -3.33,
+      "level": "Major",
+      "confidence": "Hypothesis",
+      "drivers": "Down 3.33% move, an unusually large move relative to the 60-day baseline (unusual-move score 3.02). US 2Y Treasury Yield moved -3.33% while US Tech -0.21%, US Dollar Index +0.14% and VIX +2.21%; this links the rate move to duration-sensitive equities, the dollar and hedging demand. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Fed expectations, front-end rates and financial conditions",
       "evidence": [
         {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "The Fed\u2019s Dilemma: Can Markets Damp Inflation or Is Another Rate Hike Necessary? - Barron's",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWN5TzJiNG5XMFJvcTdNbUxMTHd2MllzY05iR0V4UklVV20wRTYtMlZ1YzVSQkwyZ2p5OFkxNFNTM19DVjhFZTI3UkdESFJkMm5CSFV5cXVqR0VkYk5jZzdiZ2c4VUEtcVJ2eFZHTjdDUVhnSVRzMVBodGQ2YkZmcF9vZXJfQQ?oc=5",
-          "published": "2026-10-22T12:56:00+00:00"
-        },
-        {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Gold Falls Below $4,100, Risks Dropping to $4,000 as High Oil Prices Reinforce Expectations of High Fed Rates - TradingKey",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHlvak5WNTJReTBzVFRYQ3VjTlQ4U2VMYm5nZlVpUHgtR1J1NWI0enhaQnc1UmdpeWNZMFlCWUhnU0Eyd3VZV1U1OTFkMHcxWjJZSVdrbktMS0VFLTlITWFmaHJRY1NfVi12cW5tSFk4cDBxWXltTWk4YWhIc25ibE5TTU5rQ2FDUHYzSHVSV0Rja2FpZGkxaUZGQTRxWjIxSzBudFJjeWRUZWc2R19zakVMVHFZQk1IM3c?oc=5",
-          "published": "2026-10-22T06:00:51+00:00"
-        },
-        {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Bitcoin outlook hinges on Fed policy, inflation, and ETF demand for Q4 gains - Pluang",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMlFqa180V2lHYVNKWEFQOFlGZmt6MjZhRDItYUQtR3VCUkRieGpDZjItMjdRbGZFbXlYalA3SFREaE04S2k2UFpyX1M5bTZTN0lBY2RoYndJa0NNeW9hWjExZUNJTk1Fbjlfd3dpQWdoR3BRQWt6bXFzQThqc29YM1VPakc3MnFxN1psekItR0dvdnRMT1QxNllaUDQyaFdjX00yQU83XzNDdm92bUtYMFR3?oc=5",
-          "published": "2026-10-22T02:23:47+00:00"
+          "source": "News search",
+          "title": "Search latest news about US 2Y Treasury Yield",
+          "link": "https://news.google.com/search?q=US%202Y%20Treasury%20Yield%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
         }
       ]
     },
     {
-      "asset": "US Tech",
-      "change_pct": -2.6,
-      "level": "Significant",
-      "confidence": "Likely",
-      "drivers": "Down 2.60% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.59). US Tech moved -2.60% over the 60-day baseline; the nearest cross-asset checks are US Large Cap -1.21%, US Dollar Index -0.20% and US 10Y Treasury Yield +0.20%. Related official-source items: Bitcoin outlook hinges on Fed policy, inflation, and ETF demand for Q4 gains - Pluang; Why is US Stock Market Down Today? Dow Jones Slips 200 Points, S&P 500 Falls 1.25%, Nasdaq Climbs 1.04% as SpaceX Rally, AI Demand & Fed Rate Hike Ahead of Big Tech Earnings \u2014 Check Latest Updates - The Sunday Guardian; U.S. Treasury yields plummet as fears about AI boom sustainability flare - The Globe and Mail",
-      "sectors": "Technology, semiconductors and high-duration growth",
+      "asset": "US 10Y Treasury Yield",
+      "change_pct": -3.31,
+      "level": "Major",
+      "confidence": "Hypothesis",
+      "drivers": "Down 3.31% move, an unusually large move relative to the 60-day baseline (unusual-move score 3.51). US 10Y Treasury Yield moved -3.31% while US Tech -0.21%, US Dollar Index +0.14% and VIX +2.21%; this links the rate move to duration-sensitive equities, the dollar and hedging demand. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Long-term rates, duration assets, mortgages and banks",
       "evidence": [
         {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Bitcoin outlook hinges on Fed policy, inflation, and ETF demand for Q4 gains - Pluang",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMlFqa180V2lHYVNKWEFQOFlGZmt6MjZhRDItYUQtR3VCUkRieGpDZjItMjdRbGZFbXlYalA3SFREaE04S2k2UFpyX1M5bTZTN0lBY2RoYndJa0NNeW9hWjExZUNJTk1Fbjlfd3dpQWdoR3BRQWt6bXFzQThqc29YM1VPakc3MnFxN1psekItR0dvdnRMT1QxNllaUDQyaFdjX00yQU83XzNDdm92bUtYMFR3?oc=5",
-          "published": "2026-10-22T02:23:47+00:00"
-        },
+          "source": "News search",
+          "title": "Search latest news about US 10Y Treasury Yield",
+          "link": "https://news.google.com/search?q=US%2010Y%20Treasury%20Yield%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "asset": "Hang Seng",
+      "change_pct": -3.03,
+      "level": "Major",
+      "confidence": "Hypothesis",
+      "drivers": "Down 3.03% move, an unusually large move relative to the 60-day baseline (unusual-move score 3.20). Hang Seng moved -3.03% relative to US Large Cap -0.52%, US Dollar Index +0.14% and Copper +2.12%; the divergence points to regional rather than purely global risk drivers. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Hong Kong internet, China property and financials",
+      "evidence": [
         {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Why is US Stock Market Down Today? Dow Jones Slips 200 Points, S&P 500 Falls 1.25%, Nasdaq Climbs 1.04% as SpaceX Rally, AI Demand & Fed Rate Hike Ahead of Big Tech Earnings \u2014 Check Latest Updates - The Sunday Guardian",
-          "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPaDFRUVBra1duT1NfZlkybm8ybmJfUlQwdFMwa0E1eXNGMDdjaTNYZjhfVGdvMGhyZVdoZDNTQ1ZEX09BRlNnT2xIYWFKSm9zNk0tSnlldjA2THl2M0pFQmdERkJHU3MwTG9Obm9fTjhFSG4tMWRkeGhMb0JLbkRvQTdTUzN1SFR6WW92UHJoVWhid01aU2FRMHNmdFRNLUIwQ2VjVmRRd2tBZ0Z3LVVIRlUta3l0NU9LbFZEaXBFbjhxZDdlQ21lajdPcnRrZ2NKYmxVdUIxd0U4YjBJcVdRRkZuVEY5b3daazllUGM4SmVMYmNoN2ZfcmZXRElaNkxienplRktNTUFOSFRfSEtWTjVCclJrcXAzRl9fSUdNTWpBMGxNWHBzZmtXZWRsNWtTVEc0ZWpJRGFMdmdsWDZ2LURmY291ZzJ2VDJvVDJGZmjSAdYCQVVfeXFMTldpV2dHX1VJLXNKZGc1MVNwb2ZTRFQ4UUxBUTU1V2wyLS1fZDQ0OVh0bGNiXzMxVkp5ak54cG9Kckl3Vkk0ZFhkN280eE0wY3FuTEtteERwcy1yOVhabHZ2TXVrLXN4OXRYenBqeUswUGtaNjlJQmg3aktVQVhqU3l3c19HU2IwNXFhaVZtaGRuRGNyOGZWSXhhaFRvZnBITWlmbHgyaEN3MDNBdzN4SDhoZFl2dlFOYXBYODBTRlJKWnI3d1c0NVZJNFA0cUY3WEZoWlRuUFFSUnFrczVnUkhWcHU4UUs4Nm5rWGJIZzVRTk9uS3p4cHpzb1JURXBSTk5UNHNoYW5CZUtjanRSLVh6YktVVDExYmM5MEN3N2hxeDd4SmN2U2NjeXJyTGxwdi1yWWVBNlJ5SFROWFoyQi03NTE4QXBFd2pvZFQ5Z1F0UnZtREZn?oc=5",
-          "published": "2026-10-22T16:17:58+00:00"
-        },
+          "source": "News search",
+          "title": "Search latest news about Hang Seng",
+          "link": "https://news.google.com/search?q=Hang%20Seng%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "asset": "Nikkei 225",
+      "change_pct": -2.65,
+      "level": "Watchlist",
+      "confidence": "Hypothesis",
+      "drivers": "Down 2.65% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.55). Nikkei 225 moved -2.65% relative to US Large Cap -0.52%, US Dollar Index +0.14% and Copper +2.12%; the divergence points to regional rather than purely global risk drivers. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Japanese exporters, banks and domestic cyclicals",
+      "evidence": [
         {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "U.S. Treasury yields plummet as fears about AI boom sustainability flare - The Globe and Mail",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUjlodHl3Vy1TTFQ3S01nNmk0OW9kS1RmRHVJT0hfWXUxOTc2VmJ3WjRpQmdxaE0xdXNOZzhxY2xQYkQwa1VJQ053WXVfV3l5LVN3MHJOTUs4RlYzbERqWmlsdWs0OGNKRmNrUzBCUEZtNUwtNEdRWW8yeFdfUzlkZGR2NFdZQXFycTgwNUNMdDF4RFpIcXI2V0hOUlFyY0NNZUJ6dzB6Sl9wS1V0Ym5GSjQ1LUZaSk0?oc=5",
-          "published": "2026-10-22T15:43:32+00:00"
+          "source": "News search",
+          "title": "Search latest news about Nikkei 225",
+          "link": "https://news.google.com/search?q=Nikkei%20225%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "asset": "Energy",
+      "change_pct": 2.6,
+      "level": "Watchlist",
+      "confidence": "Hypothesis",
+      "drivers": "Up 2.60% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.75). Energy moved +2.60%, +3.12 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -3.31% and VIX +2.21% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Oil and gas producers",
+      "evidence": [
+        {
+          "source": "News search",
+          "title": "Search latest news about Energy",
+          "link": "https://news.google.com/search?q=Energy%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
         }
       ]
     },
     {
       "asset": "Copper",
-      "change_pct": -2.19,
+      "change_pct": 2.12,
       "level": "Watchlist",
       "confidence": "Hypothesis",
-      "drivers": "Down 2.19% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.76). Copper moved -2.19% while Shanghai Composite -0.60%, Hang Seng -0.90% and Materials +0.18%; this provides a direct read on China-sensitive industrial demand versus a broad materials move. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "drivers": "Up 2.12% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.58). Copper moved +2.12% while Shanghai Composite -1.48%, Hang Seng -3.03% and Materials -0.74%; this provides a direct read on China-sensitive industrial demand versus a broad materials move. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
       "sectors": "Mining, construction, industrials and China demand",
       "evidence": [
         {
@@ -2648,42 +2621,75 @@
       ]
     },
     {
-      "asset": "US Large Cap",
-      "change_pct": -1.21,
+      "asset": "Consumer Staples",
+      "change_pct": -1.92,
       "level": "Watchlist",
-      "confidence": "Likely",
-      "drivers": "Down 1.21% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.84). US Large Cap moved -1.21% over the 60-day baseline; the nearest cross-asset checks are US Large Cap -1.21%, US Dollar Index -0.20% and US 10Y Treasury Yield +0.20%. Related official-source items: The Fed\u2019s Dilemma: Can Markets Damp Inflation or Is Another Rate Hike Necessary? - Barron's; Bitcoin outlook hinges on Fed policy, inflation, and ETF demand for Q4 gains - Pluang; Bond Traders Are Backing Away From Another Fed Rate Hike. Mortgage Rates May Not Follow. - www.thewealthadvisor.com",
-      "sectors": "US equities; growth and risk appetite",
+      "confidence": "Hypothesis",
+      "drivers": "Down 1.92% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.98). Consumer Staples moved -1.92%, -1.40 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -3.31% and VIX +2.21% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Defensive consumption",
       "evidence": [
         {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "The Fed\u2019s Dilemma: Can Markets Damp Inflation or Is Another Rate Hike Necessary? - Barron's",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWN5TzJiNG5XMFJvcTdNbUxMTHd2MllzY05iR0V4UklVV20wRTYtMlZ1YzVSQkwyZ2p5OFkxNFNTM19DVjhFZTI3UkdESFJkMm5CSFV5cXVqR0VkYk5jZzdiZ2c4VUEtcVJ2eFZHTjdDUVhnSVRzMVBodGQ2YkZmcF9vZXJfQQ?oc=5",
-          "published": "2026-10-22T12:56:00+00:00"
-        },
+          "source": "News search",
+          "title": "Search latest news about Consumer Staples",
+          "link": "https://news.google.com/search?q=Consumer%20Staples%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "asset": "Consumer Discretionary",
+      "change_pct": -1.66,
+      "level": "Watchlist",
+      "confidence": "Hypothesis",
+      "drivers": "Down 1.66% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.64). Consumer Discretionary moved -1.66%, -1.14 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -3.31% and VIX +2.21% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Household demand and growth sensitivity",
+      "evidence": [
         {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Bitcoin outlook hinges on Fed policy, inflation, and ETF demand for Q4 gains - Pluang",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMlFqa180V2lHYVNKWEFQOFlGZmt6MjZhRDItYUQtR3VCUkRieGpDZjItMjdRbGZFbXlYalA3SFREaE04S2k2UFpyX1M5bTZTN0lBY2RoYndJa0NNeW9hWjExZUNJTk1Fbjlfd3dpQWdoR3BRQWt6bXFzQThqc29YM1VPakc3MnFxN1psekItR0dvdnRMT1QxNllaUDQyaFdjX00yQU83XzNDdm92bUtYMFR3?oc=5",
-          "published": "2026-10-22T02:23:47+00:00"
-        },
+          "source": "News search",
+          "title": "Search latest news about Consumer Discretionary",
+          "link": "https://news.google.com/search?q=Consumer%20Discretionary%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "asset": "Shanghai Composite",
+      "change_pct": -1.48,
+      "level": "Watchlist",
+      "confidence": "Hypothesis",
+      "drivers": "Down 1.48% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.79). Shanghai Composite moved -1.48% relative to US Large Cap -0.52%, US Dollar Index +0.14% and Copper +2.12%; the divergence points to regional rather than purely global risk drivers. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "China domestic growth, property and consumer demand",
+      "evidence": [
         {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Bond Traders Are Backing Away From Another Fed Rate Hike. Mortgage Rates May Not Follow. - www.thewealthadvisor.com",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdTR4WDV1WEZwTnhmRGdhY0tOUnZwQ2hNVjBtNlhXb003OS02b0pvQ1ZoNmNCbDV6ckFGQkpDWm4xYUY1ODhqU1B4Zkh2eXR5OFZRcEM3VFNlWTc0ejZBZmpkaTZwblY2N0NNblBlZjhIbFctRFd6YnNQYXdBTXNLZ0Y3ODRUcVFURURnTHE4cnczazlrYWVka3NkR3ZabEp1b1k0WEtnRXgyQ1lyRGNmZnlZaUg2Z0ozZXhCcWZtZw?oc=5",
-          "published": "2026-10-22T23:08:27+00:00"
+          "source": "News search",
+          "title": "Search latest news about Shanghai Composite",
+          "link": "https://news.google.com/search?q=Shanghai%20Composite%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "asset": "Financials",
+      "change_pct": -1.32,
+      "level": "Watchlist",
+      "confidence": "Hypothesis",
+      "drivers": "Down 1.32% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.73). Financials moved -1.32%, -0.80 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -3.31% and VIX +2.21% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Banks, brokers and insurers",
+      "evidence": [
+        {
+          "source": "News search",
+          "title": "Search latest news about Financials",
+          "link": "https://news.google.com/search?q=Financials%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
         }
       ]
     },
     {
       "asset": "Industrials",
-      "change_pct": 0.91,
+      "change_pct": -1.27,
       "level": "Watchlist",
       "confidence": "Hypothesis",
-      "drivers": "Up 0.91% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.14). Industrials moved +0.91%, +2.12 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield +0.20% and VIX +14.09% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "drivers": "Down 1.27% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.37). Industrials moved -1.27%, -0.75 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -3.31% and VIX +2.21% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
       "sectors": "Cyclicals, capital goods and transport",
       "evidence": [
         {
@@ -2695,11 +2701,44 @@
       ]
     },
     {
-      "asset": "CNY/USD",
-      "change_pct": 0.19,
-      "level": "Significant",
+      "asset": "US Industrials",
+      "change_pct": -1.23,
+      "level": "Watchlist",
+      "confidence": "Likely",
+      "drivers": "Down 1.23% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.87). US Industrials moved -1.23% over the 60-day baseline; the nearest cross-asset checks are US Large Cap -0.52%, US Dollar Index +0.14% and US 10Y Treasury Yield -3.31%. Related official-source items: Bond traders are backing off Fed rate hike bets \u2014 here's what it means for mortgage rates - Yahoo Finance",
+      "sectors": "Industrials, financials and cyclical demand",
+      "evidence": [
+        {
+          "source": "Google News \u2014 Rates and Macro",
+          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
+          "title": "Bond traders are backing off Fed rate hike bets \u2014 here's what it means for mortgage rates - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQ0V6MC1Sekt2RU45WGJNTzQ1MDRObjdidVAtOEl0azB3NDZTeUtESUVMNkhVWHk4UU9jekxqSTQtY2FxSDlMV1hYdWdqWE1NbjEteEdjOXBVeFVqTHZNcTlEQnd0b3pkRXZKaVgyMEE5QzA3RVYyN010TGRoMDRlM3ZaOU1hd1liTzZFMkthRDBRZEpvZmc2Qy1maDkyeFVXS0l5aGw4eng1cmh0M1dIYTk2dFdycWlLQktMMmNaM1J0dFpGVXJQOEZfcTlnNnJEb21vY1hIN2hwbHVi?oc=5",
+          "published": "2026-10-22T18:05:07+00:00"
+        }
+      ]
+    },
+    {
+      "asset": "Healthcare",
+      "change_pct": -1.11,
+      "level": "Watchlist",
       "confidence": "Hypothesis",
-      "drivers": "Up 0.19% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.70). the derived CNY/USD cross moved +0.19%; the move should be read through its components, including US Dollar Index -0.20%, AUD/USD -0.17% and Shanghai Composite -0.60%. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "drivers": "Down 1.11% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.15). Healthcare moved -1.11%, -0.59 percentage points versus the S&P 500 proxy, while US 10Y Treasury Yield -3.31% and VIX +2.21% set the broader risk backdrop. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Defensive growth and healthcare services",
+      "evidence": [
+        {
+          "source": "News search",
+          "title": "Search latest news about Healthcare",
+          "link": "https://news.google.com/search?q=Healthcare%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "asset": "CNY/USD",
+      "change_pct": 0.26,
+      "level": "Major",
+      "confidence": "Hypothesis",
+      "drivers": "Up 0.26% move, an unusually large move relative to the 60-day baseline (unusual-move score 3.99). the derived CNY/USD cross moved +0.26%; the move should be read through its components, including US Dollar Index +0.14%, AUD/USD +0.26% and Shanghai Composite -1.48%. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
       "sectors": "China-US trade, PBOC policy and dollar direction",
       "evidence": [
         {
@@ -2711,7 +2750,7 @@
       ]
     }
   ],
-  "news_checked": 18,
+  "news_checked": 4,
   "news_sources": [
     {
       "name": "Federal Reserve \u2014 All Press Releases",
@@ -2761,7 +2800,7 @@
     "assets_loaded": 31,
     "assets_expected": 31,
     "warnings": [],
-    "news_items_checked": 18,
+    "news_items_checked": 4,
     "news_feeds_ok": 7,
     "news_feeds_total": 7,
     "market_data_source": "Yahoo Finance chart endpoint",
