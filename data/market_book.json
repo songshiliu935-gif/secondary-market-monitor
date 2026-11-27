@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-11-26 03:40 UTC",
-  "updated_at_utc": "2026-11-26 03:40 UTC",
-  "updated_at_local": "2026-11-26 14:40 AEDT",
-  "market_close_date": "2026-11-26",
+  "as_of": "2026-11-27 03:41 UTC",
+  "updated_at_utc": "2026-11-27 03:41 UTC",
+  "updated_at_local": "2026-11-27 14:41 AEDT",
+  "market_close_date": "2026-11-27",
   "regime": "Risk-on",
-  "summary": "Macro and commodities lead the story. Brent crude moved -3.71% and WTI +0.82%, while Gold moved +1.91% and Copper +2.91%; Natural Gas changed +12.54%. The commodity tape therefore points to limited outright commodity repricing, with the next move likely to depend on a catalyst rather than a broad, confirmed commodity shock.\n\nThe oil narrative is being monitored through supply and geopolitics. The closest matched feed items were: Explainer: How Central Banks Are Shaping Global Borrowing Costs - Forbes Middle East; China's Copper Demand Becomes the Key Test After the Latest LME Rebound - kalkine.ca. Geopolitical evidence specifically related to Iran, the Strait of Hormuz, OPEC or the Middle East was: Explainer: How Central Banks Are Shaping Global Borrowing Costs - Forbes Middle East The next confirmation points are EIA inventory data, OPEC+ supply guidance and whether U.S.\u2013Iran or Strait of Hormuz headlines translate into a sustained supply-risk premium. This is the key distinction between a temporary futures move and a durable repricing of physical supply risk.\n\nThat macro backdrop then transmits into indices. U.S. performance was Hang Seng +2.08%, Nikkei 225 +1.54%, KOSPI +0.79%; Asian indices were Shanghai Composite +0.03%, Hang Seng +2.08%, Nikkei 225 +1.54%, KOSPI +0.79%. The dollar moved +0.13%, VIX +7.32%, the 10Y yield was 4.91 (-0.20% daily), the 2Y yield was 4.63, and the 10Y\u20132Y spread stood at 0.28%. The combination suggests that index moves were being filtered through rates, currency and regional growth sensitivity rather than driven by one uniform global risk signal.\n\nSector transmission was selective: Materials led at +2.07% versus Technology at -0.83%. Energy and Materials are the direct commodity beneficiaries, Industrials and Consumer Discretionary reflect growth sensitivity, while Utilities and Real Estate are being repriced through yields and income demand. The working market story is therefore a macro-to-market chain: commodity and geopolitical signals first, rates and FX second, then index and sector rotation. 2 significant statistical moves require review; source links and confidence labels are shown in Event Radar.",
+  "summary": "Macro and commodities lead the story. Brent crude moved -2.52% and WTI +2.44%, while Gold moved +3.30% and Copper +5.94%; Natural Gas changed +10.13%. The commodity tape therefore points to limited outright commodity repricing, with the next move likely to depend on a catalyst rather than a broad, confirmed commodity shock.\n\nThe oil narrative is being monitored through supply and geopolitics. The closest matched feed items were: No direct oil headline was matched in the monitored feeds.. Geopolitical evidence specifically related to Iran, the Strait of Hormuz, OPEC or the Middle East was: No direct Iran, Strait of Hormuz, OPEC or Middle East headline was matched in the monitored feeds. The next confirmation points are EIA inventory data, OPEC+ supply guidance and whether U.S.\u2013Iran or Strait of Hormuz headlines translate into a sustained supply-risk premium. This is the key distinction between a temporary futures move and a durable repricing of physical supply risk.\n\nThat macro backdrop then transmits into indices. U.S. performance was KOSPI +3.47%, Nikkei 225 +1.17%, Hang Seng +0.60%; Asian indices were Shanghai Composite +0.32%, Hang Seng +0.60%, Nikkei 225 +1.17%, KOSPI +3.47%. The dollar moved +0.01%, VIX -5.27%, the 10Y yield was 4.91 (-0.20% daily), the 2Y yield was 4.63, and the 10Y\u20132Y spread stood at 0.28%. The combination suggests that index moves were being filtered through rates, currency and regional growth sensitivity rather than driven by one uniform global risk signal.\n\nSector transmission was selective: Materials led at +2.07% versus Technology at -0.83%. Energy and Materials are the direct commodity beneficiaries, Industrials and Consumer Discretionary reflect growth sensitivity, while Utilities and Real Estate are being repriced through yields and income demand. The working market story is therefore a macro-to-market chain: commodity and geopolitical signals first, rates and FX second, then index and sector rotation. 4 significant statistical moves require review; source links and confidence labels are shown in Event Radar.",
   "source": "Yahoo Finance + FRED (DGS2/DGS10) \u00b7 official RSS: Federal Reserve and EIA",
   "assets": [
     {
@@ -91,7 +91,7 @@
       "name": "US Tech",
       "ticker": "^IXIC",
       "kind": "Index",
-      "close": 23585.8027,
+      "close": 23585.8008,
       "close_display": "23,585.80",
       "change_pct": -0.62,
       "z_score": -0.26,
@@ -156,7 +156,7 @@
         22617.73047,
         24089.56055,
         23733.53906,
-        23585.80273
+        23585.80078
       ],
       "signal": "Normal",
       "sector_lens": "Technology, semiconductors and high-duration growth",
@@ -251,13 +251,12 @@
       "name": "Shanghai Composite",
       "ticker": "000001.SS",
       "kind": "Index",
-      "close": 3477.4377,
-      "close_display": "3,477.44",
-      "change_pct": 0.03,
-      "z_score": 0.26,
-      "percentile": 1.7,
+      "close": 3487.9116,
+      "close_display": "3,487.91",
+      "change_pct": 0.32,
+      "z_score": 0.63,
+      "percentile": 38.3,
       "sparkline": [
-        3956.57104,
         3952.17896,
         3986.2981,
         3979.88794,
@@ -316,7 +315,8 @@
         3538.948,
         3548.3689,
         3476.46997,
-        3477.43774
+        3476.88208,
+        3487.91162
       ],
       "signal": "Normal",
       "sector_lens": "China domestic growth, property and consumer demand",
@@ -331,13 +331,12 @@
       "name": "Hang Seng",
       "ticker": "^HSI",
       "kind": "Index",
-      "close": 22422.6602,
-      "close_display": "22,422.66",
-      "change_pct": 2.08,
-      "z_score": 2.06,
-      "percentile": 95.0,
+      "close": 22359.1797,
+      "close_display": "22,359.18",
+      "change_pct": 0.6,
+      "z_score": 0.71,
+      "percentile": 43.3,
       "sparkline": [
-        25311.21094,
         25213.31055,
         25650.86914,
         25413.11914,
@@ -396,9 +395,10 @@
         22383.74023,
         22219.65039,
         21966.00977,
-        22422.66016
+        22226.88086,
+        22359.17969
       ],
-      "signal": "Significant",
+      "signal": "Normal",
       "sector_lens": "Hong Kong internet, China property and financials",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "^HSI",
@@ -411,13 +411,12 @@
       "name": "Nikkei 225",
       "ticker": "^N225",
       "kind": "Index",
-      "close": 57886.9492,
-      "close_display": "57,886.95",
-      "change_pct": 1.54,
-      "z_score": 0.92,
-      "percentile": 66.7,
+      "close": 58172.0391,
+      "close_display": "58,172.04",
+      "change_pct": 1.17,
+      "z_score": 0.73,
+      "percentile": 51.7,
       "sparkline": [
-        66131.97656,
         66405.5625,
         66311.92969,
         66215.34375,
@@ -476,7 +475,8 @@
         56436.64844,
         58644.62891,
         57011.62109,
-        57886.94922
+        57499.16016,
+        58172.03906
       ],
       "signal": "Normal",
       "sector_lens": "Japanese exporters, banks and domestic cyclicals",
@@ -491,13 +491,12 @@
       "name": "KOSPI",
       "ticker": "^KS11",
       "kind": "Index",
-      "close": 4734.6602,
-      "close_display": "4,734.66",
-      "change_pct": 0.79,
-      "z_score": 0.46,
-      "percentile": 23.3,
+      "close": 4874.54,
+      "close_display": "4,874.54",
+      "change_pct": 3.47,
+      "z_score": 1.33,
+      "percentile": 71.7,
       "sparkline": [
-        6820.02002,
         6835.7998,
         6562.72021,
         6579.47998,
@@ -556,9 +555,10 @@
         4708.54004,
         5006.02979,
         4697.50977,
-        4734.66016
+        4711.20996,
+        4874.54004
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Korean semiconductors, exporters and cyclicals",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "^KS11",
@@ -571,11 +571,11 @@
       "name": "WTI Crude",
       "ticker": "CL=F",
       "kind": "Commodity",
-      "close": 84.37,
-      "close_display": "84.37",
-      "change_pct": 0.82,
-      "z_score": 0.32,
-      "percentile": 23.3,
+      "close": 85.72,
+      "close_display": "85.72",
+      "change_pct": 2.44,
+      "z_score": 0.88,
+      "percentile": 61.7,
       "sparkline": [
         91.3,
         91.48,
@@ -636,7 +636,7 @@
         80.17,
         82.05,
         83.68,
-        84.37
+        85.72
       ],
       "signal": "Normal",
       "sector_lens": "Energy producers; airlines, transport and chemicals",
@@ -651,11 +651,11 @@
       "name": "Brent Crude",
       "ticker": "BZ=F",
       "kind": "Commodity",
-      "close": 91.1,
-      "close_display": "91.10",
-      "change_pct": -3.71,
-      "z_score": -1.27,
-      "percentile": 85.0,
+      "close": 92.23,
+      "close_display": "92.23",
+      "change_pct": -2.52,
+      "z_score": -0.87,
+      "percentile": 65.0,
       "sparkline": [
         95.52,
         96.28,
@@ -716,9 +716,9 @@
         89.37,
         91.4,
         94.61,
-        91.1
+        92.23
       ],
-      "signal": "Watchlist",
+      "signal": "Normal",
       "sector_lens": "Energy producers; airlines, transport and chemicals",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "BZ=F",
@@ -731,11 +731,11 @@
       "name": "Gold",
       "ticker": "GC=F",
       "kind": "Commodity",
-      "close": 3603.3999,
-      "close_display": "3,603.40",
-      "change_pct": 1.91,
-      "z_score": 1.46,
-      "percentile": 81.7,
+      "close": 3652.5,
+      "close_display": "3,652.50",
+      "change_pct": 3.3,
+      "z_score": 2.35,
+      "percentile": 93.3,
       "sparkline": [
         4539.8999,
         4476.6001,
@@ -796,9 +796,9 @@
         3651.3999,
         3561.8999,
         3535.80005,
-        3603.3999
+        3652.5
       ],
-      "signal": "Watchlist",
+      "signal": "Significant",
       "sector_lens": "Gold miners; real yields, USD and defensive assets",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "GC=F",
@@ -811,11 +811,11 @@
       "name": "Silver",
       "ticker": "SI=F",
       "kind": "Commodity",
-      "close": 41.87,
-      "close_display": "41.87",
-      "change_pct": 4.54,
-      "z_score": 1.96,
-      "percentile": 81.7,
+      "close": 43.83,
+      "close_display": "43.83",
+      "change_pct": 9.43,
+      "z_score": 3.77,
+      "percentile": 100.0,
       "sparkline": [
         66.973,
         66.047,
@@ -876,9 +876,9 @@
         43.147,
         40.76,
         40.052,
-        41.87
+        43.83
       ],
-      "signal": "Watchlist",
+      "signal": "Major",
       "sector_lens": "Precious metals and industrial demand",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "SI=F",
@@ -891,11 +891,11 @@
       "name": "Copper",
       "ticker": "HG=F",
       "kind": "Commodity",
-      "close": 5.4875,
-      "close_display": "5.49",
-      "change_pct": 2.91,
-      "z_score": 1.9,
-      "percentile": 95.0,
+      "close": 5.6495,
+      "close_display": "5.65",
+      "change_pct": 5.94,
+      "z_score": 3.68,
+      "percentile": 100.0,
       "sparkline": [
         6.577,
         6.597,
@@ -956,9 +956,9 @@
         5.627,
         5.3625,
         5.3325,
-        5.4875
+        5.6495
       ],
-      "signal": "Watchlist",
+      "signal": "Major",
       "sector_lens": "Mining, construction, industrials and China demand",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "HG=F",
@@ -971,10 +971,10 @@
       "name": "Natural Gas",
       "ticker": "NG=F",
       "kind": "Commodity",
-      "close": 3.679,
-      "close_display": "3.68",
-      "change_pct": 12.54,
-      "z_score": 3.75,
+      "close": 3.6,
+      "close_display": "3.60",
+      "change_pct": 10.13,
+      "z_score": 3.01,
       "percentile": 100.0,
       "sparkline": [
         2.913,
@@ -1036,7 +1036,7 @@
         3.184,
         3.323,
         3.269,
-        3.679
+        3.6
       ],
       "signal": "Major",
       "sector_lens": "Gas producers; utilities, chemicals and energy-intensive users",
@@ -1051,13 +1051,12 @@
       "name": "AUD/USD",
       "ticker": "AUDUSD=X",
       "kind": "FX",
-      "close": 0.6641,
-      "close_display": "0.66",
-      "change_pct": 0.11,
-      "z_score": 0.53,
-      "percentile": 23.3,
+      "close": 0.6664,
+      "close_display": "0.67",
+      "change_pct": 0.55,
+      "z_score": 1.57,
+      "percentile": 81.7,
       "sparkline": [
-        0.72013,
         0.72064,
         0.72209,
         0.72204,
@@ -1116,9 +1115,10 @@
         0.66409,
         0.66297,
         0.6634,
-        0.6641
+        0.66279,
+        0.66644
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "Australian exporters, commodities and domestic risk appetite",
       "source_name": "Yahoo Finance chart endpoint",
       "source_symbol": "AUDUSD=X",
@@ -1291,13 +1291,12 @@
       "name": "VIX",
       "ticker": "^VIX",
       "kind": "Risk",
-      "close": 28.29,
-      "close_display": "28.29",
-      "change_pct": 7.32,
-      "z_score": 0.45,
-      "percentile": 65.0,
+      "close": 26.8,
+      "close_display": "26.80",
+      "change_pct": -5.27,
+      "z_score": -0.54,
+      "percentile": 51.7,
       "sparkline": [
-        14.32,
         14.53,
         15.3,
         15.72,
@@ -1356,7 +1355,8 @@
         35.89,
         26.62,
         26.36,
-        28.29
+        28.29,
+        26.8
       ],
       "signal": "Normal",
       "sector_lens": "Equity volatility and risk appetite",
@@ -1371,11 +1371,11 @@
       "name": "US Dollar Index",
       "ticker": "DX-Y.NYB",
       "kind": "FX",
-      "close": 103.809,
-      "close_display": "103.81",
-      "change_pct": 0.13,
-      "z_score": 0.21,
-      "percentile": 26.7,
+      "close": 103.678,
+      "close_display": "103.68",
+      "change_pct": 0.01,
+      "z_score": -0.18,
+      "percentile": 1.7,
       "sparkline": [
         99.0,
         99.16,
@@ -1436,7 +1436,7 @@
         104.32,
         103.81,
         103.67,
-        103.809
+        103.678
       ],
       "signal": "Normal",
       "sector_lens": "Global dollar liquidity and emerging-market conditions",
@@ -2251,13 +2251,12 @@
       "name": "CNY/USD",
       "ticker": "Derived",
       "kind": "FX",
-      "close": 0.150076,
+      "close": 0.150062,
       "close_display": "0.1501",
-      "change_pct": 0.01,
-      "z_score": -0.04,
-      "percentile": 40.0,
+      "change_pct": 0.0,
+      "z_score": -0.14,
+      "percentile": 33.3,
       "sparkline": [
-        0.148832,
         0.149014,
         0.149014,
         0.14902,
@@ -2316,7 +2315,8 @@
         0.149768,
         0.150053,
         0.15006,
-        0.150076
+        0.15006,
+        0.150062
       ],
       "signal": "Normal",
       "sector_lens": "China-US trade, PBOC policy and dollar direction",
@@ -2331,13 +2331,12 @@
       "name": "CNY/AUD",
       "ticker": "Derived",
       "kind": "FX",
-      "close": 0.225984,
-      "close_display": "0.2260",
-      "change_pct": -0.09,
-      "z_score": -0.54,
-      "percentile": 23.3,
+      "close": 0.225168,
+      "close_display": "0.2252",
+      "change_pct": -0.55,
+      "z_score": -1.61,
+      "percentile": 76.7,
       "sparkline": [
-        0.206673,
         0.20678,
         0.206364,
         0.206388,
@@ -2396,9 +2395,10 @@
         0.225523,
         0.226334,
         0.226199,
-        0.225984
+        0.226407,
+        0.225168
       ],
-      "signal": "Normal",
+      "signal": "Watchlist",
       "sector_lens": "China demand, commodity prices and Australian dollar direction",
       "source_name": "Derived from Yahoo Finance CNY=X and AUDUSD=X",
       "source_symbol": "CNY/AUD",
@@ -2493,114 +2493,111 @@
   "events": [
     {
       "asset": "Natural Gas",
-      "change_pct": 12.54,
+      "change_pct": 10.13,
       "level": "Major",
-      "confidence": "Likely",
-      "drivers": "Up 12.54% move, an unusually large move relative to the 60-day baseline (unusual-move score 3.75). Natural Gas moved +12.54% versus WTI Crude +0.82%, Brent Crude -3.71% and Energy +0.74%; the relative move indicates whether the session was broad energy strength or concentrated in one contract. Related official-source items: Almost 60% of primary energy used for electricity is lost to conversion and transmission; China's Copper Demand Becomes the Key Test After the Latest LME Rebound - kalkine.ca",
+      "confidence": "Hypothesis",
+      "drivers": "Up 10.13% move, an unusually large move relative to the 60-day baseline (unusual-move score 3.01). Natural Gas moved +10.13% versus WTI Crude +2.44%, Brent Crude -2.52% and Energy +0.74%; the relative move indicates whether the session was broad energy strength or concentrated in one contract. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
       "sectors": "Gas producers; utilities, chemicals and energy-intensive users",
       "evidence": [
         {
-          "source": "EIA \u2014 Today in Energy",
-          "feed_url": "https://www.eia.gov/rss/todayinenergy.xml",
-          "title": "Almost 60% of primary energy used for electricity is lost to conversion and transmission",
-          "link": "https://www.eia.gov/todayinenergy/detail.php?id=68504",
-          "published": "2026-11-25T14:00:00+00:00"
-        },
-        {
-          "source": "Google News \u2014 China and Commodities",
-          "feed_url": "https://news.google.com/rss/search?q=China+copper+commodities+manufacturing+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "China's Copper Demand Becomes the Key Test After the Latest LME Rebound - kalkine.ca",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZlNkNDk3dTc2VDdfZUhYREVZcklUal84cUt4NFpJUnpzSElULUJSVUtXM3A1NkFQWGpSclpPNlprNUN2NklNOGRaeGNwenpJMVhjbE96azJGTVI4djZZdVpaZjkzWWlGLXdyWTljRHRWdFlmS0dTelZTRC14Y3puZUhoQ284a1RoNGZyMXdLNGZhSjZLQjkxbzJjSW15MGdwdlQ4NEZ5dFY2WGc?oc=5",
-          "published": "2026-11-24T16:47:00+00:00"
+          "source": "News search",
+          "title": "Search latest news about Natural Gas",
+          "link": "https://news.google.com/search?q=Natural%20Gas%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
         }
       ]
     },
     {
       "asset": "Silver",
-      "change_pct": 4.54,
-      "level": "Watchlist",
+      "change_pct": 9.43,
+      "level": "Major",
       "confidence": "Likely",
-      "drivers": "Up 4.54% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.96). Silver moved +4.54% alongside US Dollar Index +0.13%, US 10Y Treasury Yield -0.20% and VIX +7.32%; the combination helps distinguish safe-haven demand from a pure real-yield or dollar move. Related official-source items: Gold, silver remain under pressure as strong GDP, sticky inflation reinforce Fed hike bets - Kitco AM Report - Kitco; Fed Rate Hike Odds Hit 98%, But Eric Jackson Says It\u2019s Time To Cut \u2013 Robin Brooks Warns Of \u2018Full Meltdown\u2019 - TradingView; Rates fall this week, but hot inflation locks in Fed hike - National Mortgage News",
+      "drivers": "Up 9.43% move, an unusually large move relative to the 60-day baseline (unusual-move score 3.77). Silver moved +9.43% alongside US Dollar Index +0.01%, US 10Y Treasury Yield -0.20% and VIX -5.27%; the combination helps distinguish safe-haven demand from a pure real-yield or dollar move. Related official-source items: Gold slips, silver steadies as Fed rate hike expectations persist in holiday trading - Kitco AM Report - Kitco; Newly proposed tariffs raise chances of the Fed keeping interest rates higher for longer - Yahoo Finance; US PCE inflation due as markets brace for December Fed hike and firmer dollar dynamics - VT Markets",
       "sectors": "Precious metals and industrial demand",
       "evidence": [
         {
           "source": "Google News \u2014 Rates and Macro",
           "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Gold, silver remain under pressure as strong GDP, sticky inflation reinforce Fed hike bets - Kitco AM Report - Kitco",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMHlZajVKekE3OWVDWV9BSndmOXNXRGVSdjFnQmwxNnhtaFktelk2OTJpcGx1TXJUM3VjZmVFSXZjcGZMbmVnNUJ3STlsNE1TWmZzTHBYb0QyalB1eFRsbHBNMDRDSkltT09fazNnanNCbGlfOEhoMXNSMnR0TndWMXVWX1ptYm1KS2JOYVBrOENvWDhfVko2Wk5DbXhSb0szZGN6LVFmbXRxbkZyNDItVzYzSWpkWXQ1d0hwMmRn?oc=5",
-          "published": "2026-11-25T14:01:45+00:00"
+          "title": "Gold slips, silver steadies as Fed rate hike expectations persist in holiday trading - Kitco AM Report - Kitco",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNXFfM3AxNjAxLVVEMXMzVEhVc3FvUXFNaDFuRlV6dmlTVEpsNGdDZU5VOGZZWTh5eUJ5dWQzZlByZ2ZIcE9nX01Tak5KRDN6Q1Z2Z3Jqbk9WYzVYZVVtVjNobWxndnFSZk02TXo3Vlk2Z0pDZUFGbDZKSE00SXpVYWlSVmZjdWZmQ2xxUTF2RzZnYllpUUhaYm1SV1dGa0o3SUZndmd4dlFQSXNWN0gzUnhUbDZlQQ?oc=5",
+          "published": "2026-11-26T13:54:01+00:00"
         },
         {
           "source": "Google News \u2014 Rates and Macro",
           "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Fed Rate Hike Odds Hit 98%, But Eric Jackson Says It\u2019s Time To Cut \u2013 Robin Brooks Warns Of \u2018Full Meltdown\u2019 - TradingView",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMlJGRVRLLURIeFdQX3R2c0tObTJadEpiaHlQa1NXNGRtZVRWTV9zTGRwbWtpcDJhT1ExbS1seUdUM1lIaVpjYTlkcWdvbDZvNVo1SDhsOXpmeTRwaG5oWlRXdTVsRmQwMkVpNVliX1JxLVZpb2VfNU9ZaWpURjUxdVZhVmpYeHdXTEFlQ0wwOGJDVEg4Tng4NU5xZE9POGF0UGQxeHp4S2owR0RXczJxZFhkNUkzY1dIYmJMMmxqNWd3ZHMySlZ4Uko0X3UydndOd0FhbV91NUl2YTMwSGVlcmpLTlBGN1ZNby1ueU0yQTlfZzQ?oc=5",
-          "published": "2026-11-26T01:43:00+00:00"
+          "title": "Newly proposed tariffs raise chances of the Fed keeping interest rates higher for longer - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUVBPbUFTb1h0MEdxOXBWX1N0V0V3MXFNSktwOTJKc25xOWdpczFIbHFSZ0JYalM1QUNGdUtnUVZRSkFOdURVLTROQndxYlZnZUJaaUdpdURidXRtYUF3VnJtS21yQ2ZQd1BzeE9DSjh3X0w4aWZOVFJ1ZVp0VFNyUkVuOHlkWFd5NUlCYmZUc3VXQkd6Rnp3U01kT1Z1cTlSZnhMZ1VFZkFTcm01MDI1TDNuc08zMk1JeDB4NTJiaEU5OEpBQWR2NllWUmxDenB2emFpR2Q5R3k5dno3ODBxVGs0UndyeU0?oc=5",
+          "published": "2026-11-26T11:16:49+00:00"
         },
         {
           "source": "Google News \u2014 Rates and Macro",
           "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Rates fall this week, but hot inflation locks in Fed hike - National Mortgage News",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa3YyMEdTOGRPRFVIMm1UX3N1ZFhiM0VUUVljV2NOdUZSNjQwRXRsei1CUkFXTXpnc0RqcTNnSEd3cWp5aW4tYVRxU25FV1J5Ry10OHRnRnp0dXZjZGdya2VLVkRHXzFUajBzNGxnRW1kV2hJTHFQYnlKVjQyZEJKMml4aDF5Y2thTG5mOWFSTW5IbDZ6OWpOOTRvc2dxZEU?oc=5",
-          "published": "2026-11-25T18:34:53+00:00"
-        }
-      ]
-    },
-    {
-      "asset": "Brent Crude",
-      "change_pct": -3.71,
-      "level": "Watchlist",
-      "confidence": "Likely",
-      "drivers": "Down 3.71% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.27). Brent Crude moved -3.71% versus WTI Crude +0.82%, Brent Crude -3.71% and Energy +0.74%; the relative move indicates whether the session was broad energy strength or concentrated in one contract. Related official-source items: Explainer: How Central Banks Are Shaping Global Borrowing Costs - Forbes Middle East; China's Copper Demand Becomes the Key Test After the Latest LME Rebound - kalkine.ca",
-      "sectors": "Energy producers; airlines, transport and chemicals",
-      "evidence": [
-        {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Explainer: How Central Banks Are Shaping Global Borrowing Costs - Forbes Middle East",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdzdFaVBncUFMRjZSMUtHTFRXSkN1Q0NhMnNIc0liLXhYd2Q4bUJaY2x5MnhKUHR6cWRBZHZPUzB4MjY0Rk1DeURqNnAwaVZDbk9XdWppM3lpazU2N1BtcUtOUXFtVUV6VkxFYi1kYWptSGMzLVdMV21WRmZtV250WUxnbVpDQzl1bkUtSTltSmlnNXpseEJ6SVAzeVc5eGdGT0NkaVV3?oc=5",
-          "published": "2026-11-25T06:27:08+00:00"
-        },
-        {
-          "source": "Google News \u2014 China and Commodities",
-          "feed_url": "https://news.google.com/rss/search?q=China+copper+commodities+manufacturing+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "China's Copper Demand Becomes the Key Test After the Latest LME Rebound - kalkine.ca",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZlNkNDk3dTc2VDdfZUhYREVZcklUal84cUt4NFpJUnpzSElULUJSVUtXM3A1NkFQWGpSclpPNlprNUN2NklNOGRaeGNwenpJMVhjbE96azJGTVI4djZZdVpaZjkzWWlGLXdyWTljRHRWdFlmS0dTelZTRC14Y3puZUhoQ284a1RoNGZyMXdLNGZhSjZLQjkxbzJjSW15MGdwdlQ4NEZ5dFY2WGc?oc=5",
-          "published": "2026-11-24T16:47:00+00:00"
+          "title": "US PCE inflation due as markets brace for December Fed hike and firmer dollar dynamics - VT Markets",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS1JXdVROT2YtekpwNFdpV1FLbnZxMzlmQmhQWVA3Wll6VFIzRVN3SXdrNk1rY0F4RVNTeXRnaF9BNnctYzYwblgtdnF0MHR5VGxhdjBPUE80dTNhMTM2MzAxS1c5UlJvaVdRT0d1b2pacWEtckhBZ1ZLcG9zcDBsREVOcFlWU1J3TkE1MjZCRXlJOFc2X1pGYUo1TzhpNXpKVWZWcEwzTkdseFRndUpqQVhhYXhDd1dQdmNwczZLQ3pNdnhMdWhYQXVFZ0o?oc=5",
+          "published": "2026-11-26T15:15:41+00:00"
         }
       ]
     },
     {
       "asset": "Copper",
-      "change_pct": 2.91,
-      "level": "Watchlist",
-      "confidence": "Likely",
-      "drivers": "Up 2.91% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.90). Copper moved +2.91% while Shanghai Composite +0.03%, Hang Seng +2.08% and Materials +2.07%; this provides a direct read on China-sensitive industrial demand versus a broad materials move. Related official-source items: China's Copper Demand Becomes the Key Test After the Latest LME Rebound - kalkine.ca",
+      "change_pct": 5.94,
+      "level": "Major",
+      "confidence": "Hypothesis",
+      "drivers": "Up 5.94% move, an unusually large move relative to the 60-day baseline (unusual-move score 3.68). Copper moved +5.94% while Shanghai Composite +0.32%, Hang Seng +0.60% and Materials +2.07%; this provides a direct read on China-sensitive industrial demand versus a broad materials move. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
       "sectors": "Mining, construction, industrials and China demand",
       "evidence": [
         {
-          "source": "Google News \u2014 China and Commodities",
-          "feed_url": "https://news.google.com/rss/search?q=China+copper+commodities+manufacturing+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "China's Copper Demand Becomes the Key Test After the Latest LME Rebound - kalkine.ca",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZlNkNDk3dTc2VDdfZUhYREVZcklUal84cUt4NFpJUnpzSElULUJSVUtXM3A1NkFQWGpSclpPNlprNUN2NklNOGRaeGNwenpJMVhjbE96azJGTVI4djZZdVpaZjkzWWlGLXdyWTljRHRWdFlmS0dTelZTRC14Y3puZUhoQ284a1RoNGZyMXdLNGZhSjZLQjkxbzJjSW15MGdwdlQ4NEZ5dFY2WGc?oc=5",
-          "published": "2026-11-24T16:47:00+00:00"
+          "source": "News search",
+          "title": "Search latest news about Copper",
+          "link": "https://news.google.com/search?q=Copper%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
         }
       ]
     },
     {
-      "asset": "Hang Seng",
-      "change_pct": 2.08,
-      "level": "Significant",
-      "confidence": "Likely",
-      "drivers": "Up 2.08% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.06). Hang Seng moved +2.08% relative to US Large Cap -0.25%, US Dollar Index +0.13% and Copper +2.91%; the divergence points to regional rather than purely global risk drivers. Related official-source items: China's Copper Demand Becomes the Key Test After the Latest LME Rebound - kalkine.ca",
-      "sectors": "Hong Kong internet, China property and financials",
+      "asset": "KOSPI",
+      "change_pct": 3.47,
+      "level": "Watchlist",
+      "confidence": "Hypothesis",
+      "drivers": "Up 3.47% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.33). KOSPI moved +3.47% relative to US Large Cap -0.25%, US Dollar Index +0.01% and Copper +5.94%; the divergence points to regional rather than purely global risk drivers. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Korean semiconductors, exporters and cyclicals",
       "evidence": [
         {
-          "source": "Google News \u2014 China and Commodities",
-          "feed_url": "https://news.google.com/rss/search?q=China+copper+commodities+manufacturing+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "China's Copper Demand Becomes the Key Test After the Latest LME Rebound - kalkine.ca",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZlNkNDk3dTc2VDdfZUhYREVZcklUal84cUt4NFpJUnpzSElULUJSVUtXM3A1NkFQWGpSclpPNlprNUN2NklNOGRaeGNwenpJMVhjbE96azJGTVI4djZZdVpaZjkzWWlGLXdyWTljRHRWdFlmS0dTelZTRC14Y3puZUhoQ284a1RoNGZyMXdLNGZhSjZLQjkxbzJjSW15MGdwdlQ4NEZ5dFY2WGc?oc=5",
-          "published": "2026-11-24T16:47:00+00:00"
+          "source": "News search",
+          "title": "Search latest news about KOSPI",
+          "link": "https://news.google.com/search?q=KOSPI%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "asset": "Gold",
+      "change_pct": 3.3,
+      "level": "Significant",
+      "confidence": "Likely",
+      "drivers": "Up 3.30% move, an unusually large move relative to the 60-day baseline (unusual-move score 2.35). Gold moved +3.30% alongside US Dollar Index +0.01%, US 10Y Treasury Yield -0.20% and VIX -5.27%; the combination helps distinguish safe-haven demand from a pure real-yield or dollar move. Related official-source items: Gold rebounds above $3,550 as easing yields and weaker US Dollar counter hot US inflation data - www.tmgm.com; Gold rebounds above $3,550 as easing yields and weaker US Dollar counter hot US inflation data | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629; US PCE inflation due as markets brace for December Fed hike and firmer dollar dynamics - VT Markets",
+      "sectors": "Gold miners; real yields, USD and defensive assets",
+      "evidence": [
+        {
+          "source": "Google News \u2014 Rates and Macro",
+          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
+          "title": "Gold rebounds above $3,550 as easing yields and weaker US Dollar counter hot US inflation data - www.tmgm.com",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQ041dTJVOUZiNzFLYXAxd09aZFNnaE5DM2huLTdNVzAycUpOWEptM0FEM25vcWl6cktkaUo1MjhITjkwREwtS3Rnc3lQSG1CQWJ2TXZodTEtQ1Y1aVdNbGdIOEdBWG5WZFNJdmJuZENKWjBHUU1Obmk1TG9mZVJjajZTUDNjYkNGZ3VzdVpyRkhXdVE1SEJWVkNDNlBDdEV0eWNhN2MzLXlnc0daU0JraTZtZ1JzRTk5cjJxQmFkWVdmdVFGbGgtb3MyMUdnQ2ZkRGMtdWJuTDJmSm0tdnJxbko0NDlRS0JzdUx6SjRDWVU?oc=5",
+          "published": "2026-11-25T23:41:10+00:00"
+        },
+        {
+          "source": "Google News \u2014 Rates and Macro",
+          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
+          "title": "Gold rebounds above $3,550 as easing yields and weaker US Dollar counter hot US inflation data | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNbGo1U2NqSFlRdzY1MGloMnN2SHlUSmxQTWdlRGtqNi1EVlhXcks5QXZNMXZPQi1XMFU0Z0xId1h4VmhGVFBFZWVKQi1PSTI1SXFr?oc=5",
+          "published": "2026-11-25T23:31:02+00:00"
+        },
+        {
+          "source": "Google News \u2014 Rates and Macro",
+          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
+          "title": "US PCE inflation due as markets brace for December Fed hike and firmer dollar dynamics - VT Markets",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS1JXdVROT2YtekpwNFdpV1FLbnZxMzlmQmhQWVA3Wll6VFIzRVN3SXdrNk1rY0F4RVNTeXRnaF9BNnctYzYwblgtdnF0MHR5VGxhdjBPUE80dTNhMTM2MzAxS1c5UlJvaVdRT0d1b2pacWEtckhBZ1ZLcG9zcDBsREVOcFlWU1J3TkE1MjZCRXlJOFc2X1pGYUo1TzhpNXpKVWZWcEwzTkdseFRndUpqQVhhYXhDd1dQdmNwczZLQ3pNdnhMdWhYQXVFZ0o?oc=5",
+          "published": "2026-11-26T15:15:41+00:00"
         }
       ]
     },
@@ -2609,7 +2606,7 @@
       "change_pct": 2.07,
       "level": "Watchlist",
       "confidence": "Hypothesis",
-      "drivers": "Up 2.07% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.81). Materials moved +2.07% while Shanghai Composite +0.03%, Hang Seng +2.08% and Materials +2.07%; this provides a direct read on China-sensitive industrial demand versus a broad materials move. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "drivers": "Up 2.07% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.81). Materials moved +2.07% while Shanghai Composite +0.32%, Hang Seng +0.60% and Materials +2.07%; this provides a direct read on China-sensitive industrial demand versus a broad materials move. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
       "sectors": "Mining, chemicals and raw materials",
       "evidence": [
         {
@@ -2621,38 +2618,39 @@
       ]
     },
     {
-      "asset": "Gold",
-      "change_pct": 1.91,
+      "asset": "AUD/USD",
+      "change_pct": 0.55,
       "level": "Watchlist",
-      "confidence": "Likely",
-      "drivers": "Up 1.91% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.46). Gold moved +1.91% alongside US Dollar Index +0.13%, US 10Y Treasury Yield -0.20% and VIX +7.32%; the combination helps distinguish safe-haven demand from a pure real-yield or dollar move. Related official-source items: Gold rebounds above $3,550 as easing yields and weaker US Dollar counter hot US inflation data - FXStreet; Gold, silver remain under pressure as strong GDP, sticky inflation reinforce Fed hike bets - Kitco AM Report - Kitco; Dollar steady as sliding yields temper safe-haven bid - Reuters",
-      "sectors": "Gold miners; real yields, USD and defensive assets",
+      "confidence": "Hypothesis",
+      "drivers": "Up 0.55% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.57). AUD/USD moved +0.55% over the 60-day baseline; the nearest cross-asset checks are US Large Cap -0.25%, US Dollar Index +0.01% and US 10Y Treasury Yield -0.20%. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "Australian exporters, commodities and domestic risk appetite",
       "evidence": [
         {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Gold rebounds above $3,550 as easing yields and weaker US Dollar counter hot US inflation data - FXStreet",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV2dlTUJEaktWRnlZVGtZanQ5aF9lbjZFWm1ITDIyeVdvNndTVXlhRHc3b3ZWVExVQVdMY1ZNOWt1OUtack82YVo5N2tKR2dKWU9tbFJTazlyOVpNWE1PX3JHWm9HNFdfb2ttVWw4SlZZcjNBYk1sWXoxWXUybzloSFh5UldpOGRPeldlQTdNYVVKelAwbXRSRmxUcVl5WUZTSWVyQlZpOXdkNzVhZE1JR0NSbjJxTHN6LV9tbXV2ZXQtSFdKWWtqV1JsRFlLQko2OXc?oc=5",
-          "published": "2026-11-25T23:26:01+00:00"
-        },
+          "source": "News search",
+          "title": "Search latest news about AUD/USD",
+          "link": "https://news.google.com/search?q=AUD/USD%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
+        }
+      ]
+    },
+    {
+      "asset": "CNY/AUD",
+      "change_pct": -0.55,
+      "level": "Watchlist",
+      "confidence": "Hypothesis",
+      "drivers": "Down 0.55% move, an unusually large move relative to the 60-day baseline (unusual-move score 1.61). the derived CNY/AUD cross moved -0.55%; the move should be read through its components, including US Dollar Index +0.01%, AUD/USD +0.55% and Shanghai Composite +0.32%. No matching official-source item was found in the last 36 hours; this remains a hypothesis rather than a confirmed catalyst.",
+      "sectors": "China demand, commodity prices and Australian dollar direction",
+      "evidence": [
         {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Gold, silver remain under pressure as strong GDP, sticky inflation reinforce Fed hike bets - Kitco AM Report - Kitco",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMHlZajVKekE3OWVDWV9BSndmOXNXRGVSdjFnQmwxNnhtaFktelk2OTJpcGx1TXJUM3VjZmVFSXZjcGZMbmVnNUJ3STlsNE1TWmZzTHBYb0QyalB1eFRsbHBNMDRDSkltT09fazNnanNCbGlfOEhoMXNSMnR0TndWMXVWX1ptYm1KS2JOYVBrOENvWDhfVko2Wk5DbXhSb0szZGN6LVFmbXRxbkZyNDItVzYzSWpkWXQ1d0hwMmRn?oc=5",
-          "published": "2026-11-25T14:01:45+00:00"
-        },
-        {
-          "source": "Google News \u2014 Rates and Macro",
-          "feed_url": "https://news.google.com/rss/search?q=Federal+Reserve+rates+yields+inflation+markets&hl=en-US&gl=US&ceid=US:en",
-          "title": "Dollar steady as sliding yields temper safe-haven bid - Reuters",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeGRxVzhWY18xWGQzRlVEbmZBbU9lcnR5WEpveVIybFY3X0I5bVNXN2Q2NWZUTUl6eGJYQUZoeHEwSFJqYzhGZDV4Yk9OV29Qc0dXSXFEbm9PY09FQlhNWVlQb2ZEN0FlelZvQVJyT2N3WU42X3phd3ZYVVczQ0RORDFwaW5vd0NxTnozeEpYU3VIVF9NcGtGYng0VWRnT0hk?oc=5",
-          "published": "2026-11-26T01:44:00+00:00"
+          "source": "News search",
+          "title": "Search latest news about CNY/AUD",
+          "link": "https://news.google.com/search?q=CNY/AUD%20market%20news&hl=en-US&gl=US&ceid=US%3Aen",
+          "published": ""
         }
       ]
     }
   ],
-  "news_checked": 22,
+  "news_checked": 24,
   "news_sources": [
     {
       "name": "Federal Reserve \u2014 All Press Releases",
@@ -2702,7 +2700,7 @@
     "assets_loaded": 31,
     "assets_expected": 31,
     "warnings": [],
-    "news_items_checked": 22,
+    "news_items_checked": 24,
     "news_feeds_ok": 7,
     "news_feeds_total": 7,
     "market_data_source": "Yahoo Finance chart endpoint",
